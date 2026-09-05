@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import { SplitText } from "@/components/fx/SplitText";
@@ -23,10 +24,12 @@ type Props = {
   accent?: "warm" | "cool";
   /** "split" puts art beside copy; "stack" puts art below wide copy. */
   layout?: "split" | "stack";
+  /** Render the art as a small, pinned logo instead of the animated full-width illustration. */
+  artStyle?: "illustration" | "logo";
 };
 
 /** Page hero: split headline reveal, parallax video art, orbiting chips, counting stats, animated gradient field. */
-export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, stats, art, chips, accent = "warm", layout = "split" }: Props) {
+export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, stats, art, chips, accent = "warm", layout = "split", artStyle = "illustration" }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
   const artY = useTransform(scrollYProgress, [0, 1], [0, 140]);
@@ -88,16 +91,24 @@ export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, sta
         </motion.div>
 
         {art && (
-          <motion.div style={{ y: artY, scale: artScale }} className={cn("relative", layout === "split" ? "lg:col-span-6" : "mt-4")}>
+          <motion.div style={artStyle === "logo" ? undefined : { y: artY, scale: artScale }} className={cn("relative", layout === "split" ? "lg:col-span-6" : "mt-4")}>
             <motion.div
               initial={{ opacity: 0, y: 60, rotate: 2, scale: 0.94 }}
               animate={{ opacity: 1, y: 0, rotate: 0, scale: 1 }}
               transition={{ duration: 1.4, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
               className="relative"
             >
-              <Orbit accent={accent}>
-                <VideoArt art={art} priority className="relative z-0 aspect-[16/9] w-full scale-[1.18] drop-shadow-[0_50px_80px_rgba(0,0,0,0.55)]" rounded="rounded-none" />
-              </Orbit>
+              {artStyle === "logo" ? (
+                <Orbit accent={accent} still>
+                  <div className="relative z-0 grid aspect-[16/9] w-full place-items-center">
+                    <Image src={art.src} alt={art.alt} width={art.width ?? 480} height={art.height ?? 480} priority className="w-[34%] drop-shadow-[0_30px_60px_rgba(0,0,0,0.55)]" />
+                  </div>
+                </Orbit>
+              ) : (
+                <Orbit accent={accent}>
+                  <VideoArt art={art} priority className="relative z-0 aspect-[16/9] w-full scale-[1.18] drop-shadow-[0_50px_80px_rgba(0,0,0,0.55)]" rounded="rounded-none" />
+                </Orbit>
+              )}
 
               {chips?.map((c, i) => (
                 <motion.div

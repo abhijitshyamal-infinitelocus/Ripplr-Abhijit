@@ -12,11 +12,13 @@ type Props = {
   particles?: number;
   /** Pointer tilt strength in degrees. */
   tilt?: number;
+  /** Pin the artwork: no tilt, no float. Rings and particles keep moving. */
+  still?: boolean;
 };
 
 /** Stage for transparent artwork: breathing glow, counter-rotating dashed orbits, drifting
  *  particles and a pointer-driven 3D tilt so the illustration reads as a floating object. */
-export function Orbit({ children, accent = "warm", className, particles = 14, tilt = 8 }: Props) {
+export function Orbit({ children, accent = "warm", className, particles = 14, tilt = 8, still = false }: Props) {
   const px = useMotionValue(0.5);
   const py = useMotionValue(0.5);
   const sx = useSpring(px, { stiffness: 60, damping: 18 });
@@ -112,11 +114,15 @@ export function Orbit({ children, accent = "warm", className, particles = 14, ti
       </div>
 
       {/* tilted art */}
-      <motion.div style={{ rotateX, rotateY, transformStyle: "preserve-3d" }} className="relative will-change-transform">
-        <motion.div animate={{ y: [0, -12, 0] }} transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}>
-          {children}
+      {still ? (
+        <div className="relative">{children}</div>
+      ) : (
+        <motion.div style={{ rotateX, rotateY, transformStyle: "preserve-3d" }} className="relative will-change-transform">
+          <motion.div animate={{ y: [0, -12, 0] }} transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}>
+            {children}
+          </motion.div>
         </motion.div>
-      </motion.div>
+      )}
     </div>
   );
 }

@@ -35,12 +35,10 @@
       }
     ],
     "illustration": {
-      "src": "/figma/home/hero-ecosystem.webp",
-      "video": "/figma/home/videos/homepage-hero.webm",
-      "videoMp4": "/figma/home/videos/homepage-hero.mp4",
-      "alt": "Ripplr connects brands to wholesalers, supermarkets, online fulfilment, retailers, logistics and micro-warehousing",
-      "width": 2000,
-      "height": 1124
+      "src": "/brand/ripplr-mark-light.svg",
+      "alt": "Ripplr",
+      "width": 474,
+      "height": 480
     },
     "floatingChips": [
       {

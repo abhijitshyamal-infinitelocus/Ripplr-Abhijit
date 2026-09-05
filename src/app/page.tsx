@@ -18,6 +18,7 @@ export default function HomePage() {
         secondaryCta={h.secondaryCta}
         stats={h.stats}
         art={h.illustration}
+        artStyle="logo"
         chips={h.floatingChips}
       />
       <LogoRow eyebrow={home.brands.eyebrow} title={home.brands.title} logos={home.brands.logos} duration={home.brands.marquee.durationSeconds} />
