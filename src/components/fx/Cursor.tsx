@@ -15,6 +15,7 @@ export function Cursor() {
   useEffect(() => {
     const fine = window.matchMedia("(pointer: fine)").matches;
     if (!fine) return;
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- pointer capability is only knowable after mount
     setEnabled(true);
     document.body.classList.add("has-cursor");
 

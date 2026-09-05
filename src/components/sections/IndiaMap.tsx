@@ -24,10 +24,15 @@ export function IndiaMap({ pins, highlight, className }: { pins: Pin[]; highligh
     const topo = topology as unknown as Topology;
     const states = feature(topo, topo.objects.states as GeometryCollection);
     const projection = geoMercator().fitExtent([[20, 20], [W - 20, H - 20]], states);
-    const path = geoPath(projection);
+    // Rounded output keeps server and client markup byte-identical (avoids float hydration diffs).
+    const path = geoPath(projection).digits(2);
+    const r2 = (n: number) => Math.round(n * 100) / 100;
     return {
       paths: states.features.map((f) => ({ d: path(f) ?? "", name: (f.properties as { name: string }).name })),
-      project: (lat: number, lng: number) => projection([lng, lat]) ?? [0, 0],
+      project: (lat: number, lng: number): [number, number] => {
+        const p = projection([lng, lat]) ?? [0, 0];
+        return [r2(p[0]), r2(p[1])];
+      },
     };
   }, []);
 
@@ -79,8 +84,8 @@ export function IndiaMap({ pins, highlight, className }: { pins: Pin[]; highligh
             .map((p, i) => {
               const [x1, y1] = project(...CITY_COORDS.Bengaluru);
               const [x2, y2] = project(...CITY_COORDS[p.city]);
-              const mx = (x1 + x2) / 2;
-              const my = (y1 + y2) / 2 - Math.hypot(x2 - x1, y2 - y1) * 0.18;
+              const mx = Math.round((x1 + x2) * 50) / 100;
+              const my = Math.round(((y1 + y2) / 2 - Math.hypot(x2 - x1, y2 - y1) * 0.18) * 100) / 100;
               return (
                 <motion.path
                   key={p.city}
@@ -110,7 +115,7 @@ export function IndiaMap({ pins, highlight, className }: { pins: Pin[]; highligh
                 onMouseLeave={() => setHovered(null)}
                 className="cursor-pointer"
               >
-                <circle cx={x} cy={y} r={hq ? 14 : 9} fill={p.color} opacity={0.25} className="animate-pulse-ring" style={{ transformOrigin: `${x}px ${y}px`, animationDelay: `${i * 0.2}s` }} />
+                <circle cx={x} cy={y} r={hq ? 14 : 9} fill={p.color} opacity={0.25} className="animate-pulse-ring" style={{ transformOrigin: `${x}px ${y}px`, animationDelay: `${(i * 0.2).toFixed(1)}s` }} />
                 <circle cx={x} cy={y} r={hq ? 5 : 3.5} fill={p.color} filter="url(#glow)" />
                 <circle cx={x} cy={y} r={hq ? 2 : 1.4} fill="#fff" />
                 <motion.g animate={{ opacity: active || hq ? 1 : 0, y: active || hq ? 0 : 4 }} transition={{ duration: 0.3 }}>

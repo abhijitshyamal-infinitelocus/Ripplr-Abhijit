@@ -46,14 +46,16 @@ export function SplitText({
       nodes.push(
         <span
           key={`w-${si}-${wi}`}
-          className={cn("inline-block overflow-hidden align-bottom pb-[0.08em] -mb-[0.08em]", seg.className)}
+          className="inline-block overflow-hidden align-bottom pb-[0.08em] -mb-[0.08em]"
         >
           {units.map((u, ui) => {
             const i = index++;
             return (
               <motion.span
                 key={ui}
-                className="inline-block will-change-transform"
+                // Gradient classes must sit on the transformed leaf: background-clip:text
+                // on an ancestor is dropped once a child gets its own compositing layer.
+                className={cn("inline-block will-change-transform", seg.className)}
                 variants={{
                   hidden: reduce
                     ? { opacity: 0 }

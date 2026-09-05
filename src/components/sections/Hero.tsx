@@ -34,6 +34,7 @@ export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, sta
   const fade = useTransform(scrollYProgress, [0, 0.7], [1, 0]);
   const accentClass = accent === "warm" ? "text-gradient-warm" : "text-gradient-cool";
   const subheadText = Array.isArray(subhead) ? subhead.join(" ") : subhead;
+  const headlineLength = headline.reduce((n, p) => n + p.t.length, 0);
 
   return (
     <section ref={ref} className="relative isolate overflow-hidden pt-36 pb-16 sm:pt-40 lg:pt-44 lg:pb-24">
@@ -59,7 +60,7 @@ export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, sta
           </Reveal>
           <SplitText
             as="h1"
-            className="display-xl mt-6 text-paper"
+            className={cn("mt-6 text-paper", headlineLength > 34 ? "display-lg" : "display-xl")}
             text={headline.map((p) => ({ text: p.t, className: p.accent ? accentClass : undefined }))}
             delay={0.15}
             stagger={0.06}
@@ -94,7 +95,7 @@ export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, sta
               className="relative"
             >
               <div className={cn("absolute -inset-6 -z-10 rounded-[2.5rem] blur-3xl", accent === "warm" ? "bg-orange/20" : "bg-teal/20")} />
-              <VideoArt art={art} priority className="aspect-[16/9] w-full shadow-card ring-1 ring-white/10" rounded="rounded-[1.75rem]" />
+              <VideoArt art={art} priority className="relative z-0 aspect-[16/9] w-full shadow-card ring-1 ring-white/10" rounded="rounded-[1.75rem]" />
 
               {chips?.map((c, i) => (
                 <motion.div
@@ -102,10 +103,10 @@ export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, sta
                   initial={{ opacity: 0, scale: 0.6, y: 20 }}
                   animate={{ opacity: 1, scale: 1, y: 0 }}
                   transition={{ delay: 1 + i * 0.2, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-                  className={cn("absolute", i === 0 ? "-left-3 top-6 sm:-left-8 sm:top-10" : "-right-3 bottom-8 sm:-right-8 sm:bottom-12")}
+                  className={cn("absolute z-10", i === 0 ? "-left-3 top-6 sm:-left-8 sm:top-10" : "-right-3 bottom-8 sm:-right-8 sm:bottom-12")}
                   style={{ animation: `float ${6 + i * 1.5}s ease-in-out ${i * 0.8}s infinite` }}
                 >
-                  <div className="glass flex items-center gap-3 rounded-2xl px-4 py-3 shadow-card">
+                  <div className="flex items-center gap-3 rounded-2xl border border-white/12 bg-ink-2/95 px-4 py-3 shadow-card backdrop-blur">
                     <span className="relative grid h-2.5 w-2.5 place-items-center">
                       <span className={cn("absolute inset-0 rounded-full animate-pulse-ring", i === 0 ? "bg-orange" : "bg-teal")} />
                       <span className={cn("relative h-2.5 w-2.5 rounded-full", i === 0 ? "bg-orange" : "bg-teal")} />

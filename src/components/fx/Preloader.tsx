@@ -3,17 +3,22 @@
 import { AnimatePresence, animate, motion } from "motion/react";
 import { useEffect, useState } from "react";
 
+let started = false;
+
 /** Once-per-session intro: counts to 100 under the mark, then the curtain lifts. */
 export function Preloader() {
   const [show, setShow] = useState(false);
   const [n, setN] = useState(0);
 
   useEffect(() => {
-    if (sessionStorage.getItem("ripplr:intro")) return;
+    // Module flag guards against React's dev-mode double effect run.
+    if (started || sessionStorage.getItem("ripplr:intro")) return;
+    started = true;
     sessionStorage.setItem("ripplr:intro", "1");
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-off mount sync with sessionStorage
     setShow(true);
     document.documentElement.style.overflow = "hidden";
-    const c = animate(0, 100, {
+    animate(0, 100, {
       duration: 1.6,
       ease: [0.76, 0, 0.24, 1],
       onUpdate: (v) => setN(Math.round(v)),
@@ -24,7 +29,6 @@ export function Preloader() {
         }, 250);
       },
     });
-    return () => c.stop();
   }, []);
 
   return (

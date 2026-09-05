@@ -28,10 +28,6 @@ export function Header() {
   });
 
   useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
-
-  useEffect(() => {
     document.documentElement.style.overflow = open ? "hidden" : "";
     return () => {
       document.documentElement.style.overflow = "";
@@ -52,7 +48,7 @@ export function Header() {
           <div
             className={cn(
               "flex h-16 items-center justify-between rounded-full px-4 pl-5 transition-all duration-500",
-              scrolled || open ? "glass shadow-card" : "bg-transparent",
+              scrolled || open ? "border border-white/10 bg-ink/75 shadow-card backdrop-blur-xl" : "border border-transparent bg-transparent",
             )}
           >
             <Link href="/" className="relative flex items-center gap-2" aria-label="Ripplr home">
@@ -156,6 +152,7 @@ export function Header() {
                 >
                   <Link
                     href={n.href}
+                    onClick={() => setOpen(false)}
                     className="group flex items-baseline justify-between border-b border-white/8 py-4 font-display text-3xl font-bold tracking-tight text-paper"
                   >
                     {n.label}
@@ -173,7 +170,9 @@ export function Header() {
               <a href={`mailto:${site.contact.generalEnquiries}`} className="text-sm text-paper/60">
                 {site.contact.generalEnquiries}
               </a>
-              <Button href={site.navCta.href}>{site.navCta.label}</Button>
+              <span onClick={() => setOpen(false)}>
+                <Button href={site.navCta.href}>{site.navCta.label}</Button>
+              </span>
             </motion.div>
           </motion.div>
         )}
