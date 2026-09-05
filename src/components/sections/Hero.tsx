@@ -7,6 +7,7 @@ import { Reveal } from "@/components/fx/Reveal";
 import { Counter } from "@/components/fx/Counter";
 import { Button } from "@/components/ui/Button";
 import { VideoArt } from "@/components/ui/VideoArt";
+import { Orbit } from "@/components/fx/Orbit";
 import type { Art, Cta, Stat, TextPart } from "@/lib/content";
 import { cn } from "@/lib/utils";
 
@@ -94,8 +95,9 @@ export function Hero({ eyebrow, headline, subhead, primaryCta, secondaryCta, sta
               transition={{ duration: 1.4, delay: 0.35, ease: [0.16, 1, 0.3, 1] }}
               className="relative"
             >
-              <div className={cn("absolute -inset-6 -z-10 rounded-[2.5rem] blur-3xl", accent === "warm" ? "bg-orange/20" : "bg-teal/20")} />
-              <VideoArt art={art} priority className="relative z-0 aspect-[16/9] w-full shadow-card ring-1 ring-white/10" rounded="rounded-[1.75rem]" />
+              <Orbit accent={accent}>
+                <VideoArt art={art} priority className="relative z-0 aspect-[16/9] w-full scale-[1.18] drop-shadow-[0_50px_80px_rgba(0,0,0,0.55)]" rounded="rounded-none" />
+              </Orbit>
 
               {chips?.map((c, i) => (
                 <motion.div

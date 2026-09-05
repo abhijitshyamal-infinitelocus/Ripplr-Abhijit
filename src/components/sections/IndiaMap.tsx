@@ -20,15 +20,22 @@ export function IndiaMap({ pins, highlight, className }: { pins: Pin[]; highligh
   const inView = useInView(ref, { once: true, amount: 0.3 });
   const [hovered, setHovered] = useState<string | null>(null);
 
-  const { paths, project } = useMemo(() => {
+  const { outline, paths, project } = useMemo(() => {
     const topo = topology as unknown as Topology;
     const states = feature(topo, topo.objects.states as GeometryCollection);
-    const projection = geoMercator().fitExtent([[20, 20], [W - 20, H - 20]], states);
+    // The states layer omits the northern parts of J&K / Ladakh; the outline carries the full official boundary.
+    // J&K and Ladakh are therefore drawn as one region from the outline (masked by the other states) so their
+    // truncated edges don't show up as a line across Indian territory.
+    const outline = feature(topo, topo.objects.outline as GeometryCollection);
+    const NORTH = new Set(["Jammu and Kashmir", "Ladakh"]);
+    const drawn = states.features.filter((f) => !NORTH.has((f.properties as { name: string }).name));
+    const projection = geoMercator().fitExtent([[20, 20], [W - 20, H - 20]], outline);
     // Rounded output keeps server and client markup byte-identical (avoids float hydration diffs).
     const path = geoPath(projection).digits(2);
     const r2 = (n: number) => Math.round(n * 100) / 100;
     return {
-      paths: states.features.map((f) => ({ d: path(f) ?? "", name: (f.properties as { name: string }).name })),
+      outline: path(outline) ?? "",
+      paths: drawn.map((f) => ({ d: path(f) ?? "", name: (f.properties as { name: string }).name })),
       project: (lat: number, lng: number): [number, number] => {
         const p = projection([lng, lat]) ?? [0, 0];
         return [r2(p[0]), r2(p[1])];
@@ -58,9 +65,28 @@ export function IndiaMap({ pins, highlight, className }: { pins: Pin[]; highligh
               <feMergeNode in="SourceGraphic" />
             </feMerge>
           </filter>
+          {/* Hides the outline wherever another state draws, leaving the J&K / Ladakh region. */}
+          <mask id="outline-mask">
+            <rect width={W} height={H} fill="white" />
+            {paths.map((p, i) => (
+              <path key={p.name + i} d={p.d} fill="black" />
+            ))}
+          </mask>
         </defs>
 
         <g>
+          <motion.path
+            d={outline}
+            fill="url(#map-fill)"
+            stroke="rgba(255,255,255,0.35)"
+            strokeWidth={0.8}
+            strokeLinejoin="round"
+            initial={{ pathLength: 0, opacity: 0 }}
+            animate={inView ? { pathLength: 1, opacity: 1 } : {}}
+            transition={{ pathLength: { duration: 2, delay: 0.15, ease: [0.16, 1, 0.3, 1] }, opacity: { duration: 0.6, delay: 0.15 } }}
+            mask="url(#outline-mask)"
+            className="transition-[fill] duration-500 hover:[fill:rgba(255,255,255,0.14)]"
+          />
           {paths.map((p, i) => (
             <motion.path
               key={p.name + i}

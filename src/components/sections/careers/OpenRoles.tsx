@@ -45,7 +45,9 @@ export function OpenRoles() {
                 </div>
               </div>
               <motion.div className="lg:col-span-5" animate={{ y: [0, -10, 0] }} transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}>
-                <Image src={o.emptyState.art.src} alt={o.emptyState.art.alt} width={o.emptyState.art.width} height={o.emptyState.art.height} className="mx-auto w-full max-w-sm" />
+                <div className="mx-auto w-full max-w-sm drop-shadow-[0_30px_50px_rgba(0,0,0,0.5)]">
+                  <Image src={o.emptyState.art.src} alt={o.emptyState.art.alt} width={o.emptyState.art.width} height={o.emptyState.art.height} className="w-full" />
+                </div>
               </motion.div>
             </motion.div>
           ) : (

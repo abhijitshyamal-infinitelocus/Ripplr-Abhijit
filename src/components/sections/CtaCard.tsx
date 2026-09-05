@@ -53,7 +53,7 @@ export function CtaCard({
               {art && (
                 <div className="relative lg:col-span-5">
                   <Parallax speed={-0.25}>
-                    <div className="relative mx-auto max-w-md overflow-hidden rounded-3xl ring-1 ring-white/10">
+                    <div className="relative mx-auto max-w-md drop-shadow-[0_40px_60px_rgba(0,0,0,0.5)]">
                       <Image src={art.src} alt={art.alt} width={art.width ?? 1200} height={art.height ?? 800} className="h-full w-full object-cover" sizes="(min-width:1024px) 40vw, 90vw" />
                     </div>
                   </Parallax>

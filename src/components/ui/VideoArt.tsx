@@ -1,85 +1,52 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { motion, useReducedMotion } from "motion/react";
 import { cn } from "@/lib/utils";
 import type { Art } from "@/lib/content";
 
 type Props = {
   art: Art;
   className?: string;
-  /** "auto" plays when in view; "hover" plays while hovered. */
+  /** Kept for call-site compatibility; images animate on hover either way. */
   play?: "auto" | "hover";
   priority?: boolean;
   sizes?: string;
   rounded?: string;
+  /** Glow colour that hugs the artwork silhouette. */
+  accent?: "warm" | "cool";
+  /** "light" swaps the deep drop-shadow for a soft navy one (for cream/white cards). */
+  surface?: "dark" | "light";
 };
 
-/** Poster image that swaps to its looping video when in view (or on hover). */
-export function VideoArt({ art, className, play = "auto", priority, sizes = "(min-width:1024px) 50vw, 100vw", rounded = "rounded-3xl" }: Props) {
-  const ref = useRef<HTMLVideoElement>(null);
-  const wrap = useRef<HTMLDivElement>(null);
-  const [ready, setReady] = useState(false);
-  const [hover, setHover] = useState(false);
-  const hasVideo = Boolean(art.video || art.videoMp4);
-
-  useEffect(() => {
-    if (!hasVideo || play !== "auto") return;
-    const v = ref.current;
-    const el = wrap.current;
-    if (!v || !el) return;
-    const io = new IntersectionObserver(
-      ([e]) => {
-        if (e.isIntersecting) v.play().catch(() => {});
-        else v.pause();
-      },
-      { threshold: 0.2 },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, [hasVideo, play]);
-
-  useEffect(() => {
-    if (play !== "hover" || !ref.current) return;
-    if (hover) ref.current.play().catch(() => {});
-    else {
-      ref.current.pause();
-      ref.current.currentTime = 0;
-    }
-  }, [hover, play]);
-
+/** Animated illustration stage. The artwork is a keyed, transparent poster: it springs in with a
+ *  blur, floats and sways continuously, breathes a silhouette-hugging glow, and lifts on hover. */
+export function VideoArt({ art, className, priority, sizes = "(min-width:1024px) 50vw, 100vw", rounded = "rounded-3xl", accent = "warm", surface = "dark" }: Props) {
+  const reduce = useReducedMotion();
   return (
-    <div
-      ref={wrap}
-      className={cn("relative overflow-hidden", rounded, className)}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      data-cursor={hasVideo && play === "hover" ? "media" : undefined}
+    <motion.div
+      className={cn("group/art relative overflow-visible", rounded, className)}
+      initial={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.82, y: 40, rotate: -3, filter: "blur(14px)" }}
+      whileInView={{ opacity: 1, scale: 1, y: 0, rotate: 0, filter: "blur(0px)" }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ type: "spring", stiffness: 70, damping: 16, mass: 1.1 }}
+      whileHover={reduce ? undefined : { scale: 1.04 }}
     >
-      <Image
-        src={art.src}
-        alt={art.alt}
-        width={art.width ?? 1600}
-        height={art.height ?? 900}
-        priority={priority}
-        sizes={sizes}
-        className={cn("h-full w-full object-cover transition-opacity duration-700", ready && (play === "auto" || hover) ? "opacity-0" : "opacity-100")}
-      />
-      {hasVideo && (
-        <video
-          ref={ref}
-          muted
-          loop
-          playsInline
-          preload={play === "auto" ? "metadata" : "none"}
-          onCanPlay={() => setReady(true)}
-          className="absolute inset-0 h-full w-full object-cover"
-          aria-hidden
-        >
-          {art.video && <source src={art.video} type="video/webm" />}
-          {art.videoMp4 && <source src={art.videoMp4} type="video/mp4" />}
-        </video>
-      )}
-    </div>
+      <motion.div
+        className="h-full w-full"
+        animate={reduce ? undefined : { y: [0, -10, 0, 8, 0], rotate: [0, 0.8, 0, -0.8, 0] }}
+        transition={{ duration: 11, repeat: Infinity, ease: "easeInOut" }}
+      >
+        <Image
+          src={art.src}
+          alt={art.alt}
+          width={art.width ?? 1600}
+          height={art.height ?? 900}
+          priority={priority}
+          sizes={sizes}
+          className={cn("h-full w-full object-contain transition-[filter] duration-700", surface === "light" ? "art-glow-light" : "art-glow", accent === "cool" && "art-glow-cool")}
+        />
+      </motion.div>
+    </motion.div>
   );
 }

@@ -6,6 +6,7 @@ import { about } from "@/lib/content";
 import { VideoArt } from "@/components/ui/VideoArt";
 import { SplitText } from "@/components/fx/SplitText";
 import { Reveal } from "@/components/fx/Reveal";
+import { Orbit } from "@/components/fx/Orbit";
 
 /** Two sticky-stacked panels: mission then vision, each art pinned while its copy scrolls through. */
 export function MissionVision() {
@@ -35,7 +36,9 @@ function Panel({ index, title, body, art, flip }: { index: string; title: string
         </Reveal>
       </div>
       <motion.div style={{ clipPath: clip, y }} className={flip ? "lg:col-span-7 lg:col-start-1 lg:order-1 lg:row-start-1" : "lg:col-span-7"}>
-        <VideoArt art={art} className="aspect-[16/9] shadow-card" rounded="rounded-[2rem]" />
+        <Orbit accent={flip ? "cool" : "warm"} particles={10} tilt={6}>
+          <VideoArt art={art} className="aspect-[16/9] drop-shadow-[0_50px_80px_rgba(0,0,0,0.5)]" rounded="rounded-none" />
+        </Orbit>
       </motion.div>
     </div>
   );

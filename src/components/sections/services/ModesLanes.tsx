@@ -19,7 +19,7 @@ export function ModesLanes() {
         <Stagger className="mt-14 grid gap-6 lg:grid-cols-2" stagger={0.15}>
           {m.items.map((it, i) => (
             <StaggerItem key={it.title}>
-              <article className="group relative overflow-hidden rounded-[2rem] ring-1 ring-navy/8">
+              <article className="group relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-navy via-navy-2 to-ink ring-1 ring-white/10">
                 <VideoArt art={{ src: it.art, alt: it.title, video: it.video, videoMp4: it.videoMp4, width: 1200, height: 750 }} className="aspect-[16/10] transition-transform duration-1000 ease-out-expo group-hover:scale-[1.03]" rounded="rounded-none" />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
                 <span className={cn("absolute right-6 top-6 rounded-full px-3 py-1.5 text-xs font-semibold", i ? "bg-teal text-ink" : "bg-orange text-ink")}>{it.badge}</span>
@@ -43,7 +43,7 @@ export function ModesLanes() {
             {l.items.map((it) => (
               <StaggerItem key={it.title}>
                 <article className="group flex h-full flex-col overflow-hidden rounded-3xl bg-white ring-1 ring-navy/8 transition-all duration-700 ease-out-expo hover:-translate-y-2 hover:shadow-[0_40px_80px_-40px_rgba(78,164,155,0.5)]">
-                  <VideoArt art={{ src: it.art, alt: it.title, video: it.video, videoMp4: it.videoMp4, width: 800, height: 500 }} play="hover" className="aspect-[16/10]" rounded="rounded-none" sizes="(min-width:768px) 33vw, 100vw" />
+                  <VideoArt art={{ src: it.art, alt: it.title, video: it.video, videoMp4: it.videoMp4, width: 800, height: 500 }} play="hover" surface="light" className="aspect-[16/10]" rounded="rounded-none" sizes="(min-width:768px) 33vw, 100vw" />
                   <div className="flex flex-1 flex-col p-6">
                     <Image src={it.iconArt} alt="" width={40} height={40} className="h-10 w-10" />
                     <h3 className="mt-4 font-display text-xl font-bold">{it.title}</h3>

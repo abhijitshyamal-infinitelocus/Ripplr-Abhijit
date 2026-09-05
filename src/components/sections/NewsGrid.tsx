@@ -23,6 +23,7 @@ export function NewsGrid() {
               <VideoArt
                 art={{ src: lead.image!, alt: lead.imageAlt, video: lead.video, videoMp4: lead.videoMp4, width: 1400, height: 900 }}
                 play="hover"
+                surface="light"
                 rounded="rounded-none"
                 className="aspect-[16/9]"
                 sizes="(min-width:1024px) 60vw, 100vw"
@@ -51,6 +52,7 @@ export function NewsGrid() {
                     <VideoArt
                       art={{ src: a.image, alt: a.imageAlt, video: a.video, videoMp4: a.videoMp4, width: 400, height: 300 }}
                       play="hover"
+                surface="light"
                       rounded="rounded-2xl"
                       className="aspect-[4/3] w-32 shrink-0 sm:w-40"
                       sizes="160px"

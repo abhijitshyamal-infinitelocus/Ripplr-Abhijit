@@ -42,3 +42,6 @@ next-env.d.ts
 
 # screenshots
 .playwright-mcp/
+
+# untouched source media (pre background removal)
+media-originals/

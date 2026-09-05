@@ -30,6 +30,7 @@
   --animate-spin-slow: spin 18s linear infinite;
   --animate-pulse-ring: pulse-ring 2.4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
   --animate-shimmer: shimmer 2.8s linear infinite;
+  --animate-art-glow: art-glow 7s ease-in-out infinite;
 
   @keyframes marquee {
     from { transform: translate3d(0, 0, 0); }
@@ -42,6 +43,14 @@
   @keyframes pulse-ring {
     0% { transform: scale(0.4); opacity: 0.9; }
     100% { transform: scale(2.6); opacity: 0; }
+  }
+  @keyframes art-glow {
+    0%, 100% { filter: drop-shadow(0 30px 40px rgba(7,16,25,0.6)) drop-shadow(0 0 22px rgba(255,122,47,0.35)); }
+    50% { filter: drop-shadow(0 40px 50px rgba(7,16,25,0.7)) drop-shadow(0 0 46px rgba(78,164,155,0.5)); }
+  }
+  @keyframes art-glow-light {
+    0%, 100% { filter: drop-shadow(0 18px 24px rgba(22,57,78,0.22)) drop-shadow(0 0 18px rgba(255,122,47,0.12)); }
+    50% { filter: drop-shadow(0 26px 30px rgba(22,57,78,0.28)) drop-shadow(0 0 30px rgba(78,164,155,0.22)); }
   }
   @keyframes shimmer {
     from { background-position: 200% 0; }
@@ -188,6 +197,11 @@
     transition: transform 0.9s var(--ease-out-expo);
   }
   .shine:hover::before { transform: translateX(120%); }
+  /* Silhouette-hugging glow for keyed artwork: drop-shadow follows the alpha channel. */
+  .art-glow { animation: var(--animate-art-glow); will-change: filter; }
+  .art-glow-light { animation: art-glow-light 7s ease-in-out infinite; will-change: filter; }
+  .art-glow-cool { animation-delay: -3.5s; }
+  .group\/art:hover .art-glow { animation-play-state: paused; filter: drop-shadow(0 40px 50px rgba(7,16,25,0.7)) drop-shadow(0 0 60px rgba(255,122,47,0.7)); }
   .hairline { border-color: rgba(255,255,255,0.1); }
   .hairline-dark { border-color: rgba(22,57,78,0.12); }
 }
