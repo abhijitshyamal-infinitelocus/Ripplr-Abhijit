@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "title": "Logistics Services",
+    "description": "A tech-orchestrated logistics engine running 700+ daily trips - with real-time visibility."
+  },
+  "hero": {
+    "eyebrow": "Logistics",
+    "headlineParts": [
+      {
+        "t": "Every "
+      },
+      {
+        "t": "package",
+        "accent": true
+      },
+      {
+        "t": " starts a ripple. We carry it the "
+      },
+      {
+        "t": "whole way.",
+        "accent": true
+      }
+    ],
+    "subhead": "A tech driven logistics engine which handles over 1 million packages every day.",
+    "primaryCta": {
+      "label": "Onboard Client",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "Explore Distibution",
+      "href": "/services/distribution"
+    },
+    "art": {
+      "src": "/figma/logistics/logistics-hero.webp",
+      "alt": "Ripplr logistics network across air, warehouse and last-mile road",
+      "video": "/figma/logistics/videos/logistics-hero.webm",
+      "videoMp4": "/figma/logistics/videos/logistics-hero.mp4",
+      "width": 2000,
+      "height": 1124
+    }
+  },
+  "stats": {
+    "eyebrow": "Stats",
+    "title": "Ripplr Numbers",
+    "items": [
+      {
+        "value": "2000+",
+        "label": "Vehicles"
+      },
+      {
+        "value": "1B+",
+        "label": "KMs Travelled"
+      },
+      {
+        "value": "5L+",
+        "label": "Sqft Warehouse Space"
+      },
+      {
+        "value": "1.5M",
+        "label": "Total Trips"
+      },
+      {
+        "value": "95%",
+        "label": "Fleet with Live GPS"
+      }
+    ]
+  },
+  "warehousingStats": {
+    "eyebrow": "Stats",
+    "title": "Warehousing Numbers",
+    "items": [
+      {
+        "value": "30+",
+        "label": "Warehouses under management"
+      },
+      {
+        "value": "10L+",
+        "label": "Packages"
+      },
+      {
+        "value": "5L+",
+        "label": "Sqft Warehouse Space"
+      },
+      {
+        "value": "99.6%",
+        "label": "Inventory accuracy"
+      }
+    ]
+  },
+  "specialisms": {
+    "tabs": [
+      {
+        "id": "transport",
+        "label": "Transport"
+      },
+      {
+        "id": "warehousing",
+        "label": "Warehousing"
+      }
+    ],
+    "panels": [
+      {
+        "id": "transport",
+        "eyebrow": "Transport",
+        "title": "We specialize in mid-mile.",
+        "body": "The mid-mile is the leg between your warehouse and your store, dark store or distribution point - the leg where reliability compounds. We run it for retail and FMCG operators including Seven Eleven, Reliance Trends and Licious, primarily by road, with air lanes for clients who need speed over distance.",
+        "steps": [
+          {
+            "title": "We map your network",
+            "body": "Before a single trip runs, we study your outlets, volumes and service windows, then design the lanes around them. You get a network plan and a per-km number, not a generic rate card.",
+            "art": "/figma/logistics/step-1.webp",
+            "video": "/figma/logistics/step-1.webm",
+            "videoMp4": "/figma/logistics/step-1.mp4"
+          },
+          {
+            "title": "We run it and watch it",
+            "body": "Every trip streams live position and ETA to our control tower. When a lane slips, we know before your SLA does, and there is still time to reroute.",
+            "art": "/figma/logistics/step-2.webp",
+            "video": "/figma/logistics/step-2.webm",
+            "videoMp4": "/figma/logistics/step-2.mp4"
+          },
+          {
+            "title": "It reaches your stores on time",
+            "body": "Delivery confirmed at the door, with proof against the SLA you agreed. You see the same numbers we do.",
+            "art": "/figma/logistics/step-3.webp",
+            "video": "/figma/logistics/step-3.webm",
+            "videoMp4": "/figma/logistics/step-3.mp4"
+          }
+        ]
+      },
+      {
+        "id": "warehousing",
+        "eyebrow": "Warehousing",
+        "title": "We don't just rent space. We manage your inventory.",
+        "body": "Where stock sits, how accurately it's counted, and how fast it leaves are our numbers to hit, not yours. Built for high volume industries, where a day of stockout costs more than the storage.",
+        "steps": [
+          {
+            "label": "Property",
+            "title": "We plan the end to end supply chain",
+            "body": "Facility sourcing, leasing and upkeep are ours, so you carry no real estate and no lease risk. So is the harder call: which site holds which SKU, and how close it sits to the demand that turns it.",
+            "art": "/figma/logistics/Warehouse/Warehouse2.webp",
+            "video": "/figma/logistics/Warehouse/warehousing.webm",
+            "videoMp4": "/figma/logistics/Warehouse/warehousing.mp4"
+          },
+          {
+            "label": "Resources",
+            "title": "Every case is counted, not estimated",
+            "body": "WMS, scanners and a defined SOP on every site. Stock is scanned in and scanned out, so your inventory position is a live number you can plan against, not a monthly reconciliation.",
+            "art": "/figma/logistics/Warehouse/Warehouse3.webp",
+            "video": "/figma/logistics/Warehouse/every-case.webm",
+            "videoMp4": "/figma/logistics/Warehouse/every-case.mp4"
+          },
+          {
+            "label": "Manpower",
+            "title": "The same trained team on every shift",
+            "body": "Warehouse staff are hired, trained and managed by us. Ensuring complete adherence to SLAs and SOPs.",
+            "art": "/figma/logistics/Warehouse/Warehouse1.webp",
+            "video": "/figma/logistics/Warehouse/trained-team.webm",
+            "videoMp4": "/figma/logistics/Warehouse/trained-team.mp4"
+          }
+        ]
+      }
+    ],
+    "stepLabel": "Step"
+  },
+  "modes": {
+    "eyebrow": "Our network",
+    "title": "Modes of Transport",
+    "items": [
+      {
+        "icon": "road",
+        "title": "Road",
+        "body": "The backbone of the network - every city, every lane, every vehicle class.",
+        "art": "/figma/logistics/mode-road.webp",
+        "badge": "Primary Mode",
+        "video": "/figma/logistics/mode-road.webm",
+        "videoMp4": "/figma/logistics/mode-road.mp4"
+      },
+      {
+        "icon": "plane",
+        "title": "Air",
+        "body": "Deployed where distance has to give way to speed.",
+        "art": "/figma/logistics/mode-air.webp",
+        "badge": "Selected Clients",
+        "video": "/figma/logistics/mode-air.webm",
+        "videoMp4": "/figma/logistics/mode-air.mp4"
+      }
+    ]
+  },
+  "lanes": {
+    "eyebrow": "Lane types",
+    "title": "Road Categories",
+    "items": [
+      {
+        "iconArt": "/figma/icons/lane-intracity.svg",
+        "title": "Intracity - Within the City",
+        "body": "Store to store, dark store to dark store - short lanes, tight windows.",
+        "art": "/figma/logistics/lane-intracity.webp",
+        "video": "/figma/logistics/lane-intracity.webm",
+        "videoMp4": "/figma/logistics/lane-intracity.mp4"
+      },
+      {
+        "iconArt": "/figma/icons/lane-intercity.svg",
+        "title": "InterCity - Between Cities",
+        "body": "Hub to hub between cities - scheduled lanes that keep regions stocked.",
+        "art": "/figma/logistics/lane-intercity.webp",
+        "video": "/figma/logistics/lane-intercity.webm",
+        "videoMp4": "/figma/logistics/lane-intercity.mp4"
+      },
+      {
+        "iconArt": "/figma/icons/lane-longhaul.svg",
+        "title": "Long Haul - Across the Country",
+        "body": "Cross-country runs for volume that can wait a day, not a week.",
+        "art": "/figma/logistics/lane-longhaul.webp",
+        "video": "/figma/logistics/lane-longhaul.webm",
+        "videoMp4": "/figma/logistics/lane-longhaul.mp4"
+      }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Ripplr's model",
+    "title": "Pricing & Payouts",
+    "description": "We offer multiple pricing options based on your requirements.",
+    "items": [
+      {
+        "icon": "gauge",
+        "title": "Per Kilometer",
+        "unit": "₹ / km",
+        "body": "Distance-driven lanes - long hauls, intercity runs."
+      },
+      {
+        "icon": "doc",
+        "title": "Per Order",
+        "unit": "₹ / order",
+        "body": "Stop-heavy, order-driven lanes with many drops."
+      },
+      {
+        "icon": "calendar",
+        "title": "Per Day",
+        "unit": "₹ / day",
+        "body": "Dedicated, day-rate deployments for a fixed vehicle."
+      }
+    ]
+  },
+  "network": {
+    "eyebrow": "Our network",
+    "title": "Network Across India",
+    "description": "Strategically located hubs ensuring seamless distribution across the subcontinent.",
+    "tone": "logistics",
+    "legend": [
+      {
+        "label": "Logistics Presence",
+        "color": "#4EA49B"
+      }
+    ],
+    "regions": [
+      {
+        "name": "South",
+        "count": "12 locations",
+        "cities": [
+          "Bengaluru",
+          "Chennai",
+          "Coimbatore",
+          "Hyderabad",
+          "Kanchipuram",
+          "Krishnagiri",
+          "Mandya",
+          "Rangareddy",
+          "Sangareddy",
+          "Tiruvallur",
+          "Tumakuru",
+          "Warangal"
+        ]
+      },
+      {
+        "name": "North",
+        "count": "7 locations",
+        "cities": [
+          "Delhi",
+          "Faridabad",
+          "Gautam Buddha Nagar",
+          "Gurgaon",
+          "Jind",
+          "Mewat",
+          "Sonipat"
+        ]
+      },
+      {
+        "name": "West",
+        "count": "5 locations",
+        "cities": ["Mumbai", "Nashik", "Pune", "Surat", "Thane"]
+      },
+      {
+        "name": "East",
+        "count": "4 locations",
+        "cities": [
+          "Howrah",
+          "Kolkata",
+          "North 24 Parganas",
+          "South 24 Parganas"
+        ]
+      }
+    ],
+    "tabs": [
+      {
+        "id": "transportation",
+        "label": "Transportation",
+        "icon": "box",
+        "title": "Network Across India"
+      },
+      {
+        "id": "warehousing",
+        "label": "Warehousing",
+        "icon": "shield-check",
+        "title": "Warehousing Network",
+        "description": "Connected logistics infrastructure enabling faster, more reliable distribution across India.",
+        "regions": [
+          {
+            "name": "South",
+            "count": "4 locations",
+            "cities": ["Bengaluru", "Chennai", "Coimbatore", "Hyderabad"]
+          },
+          {
+            "name": "North",
+            "count": "2 locations",
+            "cities": ["Delhi", "Jaipur"]
+          },
+          {
+            "name": "West",
+            "count": "2 locations",
+            "cities": ["Mumbai", "Surat"]
+          },
+          {
+            "name": "East",
+            "count": "1 location",
+            "cities": ["Kolkata"]
+          }
+        ]
+      }
+    ]
+  },
+  "clientRows": [
+    {
+      "eyebrow": "Trusted by",
+      "title": "Leading Clients - Transportation",
+      "logos": [
+        {
+          "src": "/logos/logistics/transport/reliance-trends.webp",
+          "alt": "Reliance Trends",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/dmart.webp",
+          "alt": "DMart",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/xpressbees.webp",
+          "alt": "XpressBees",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/milkbasket.webp",
+          "alt": "Milkbasket",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/tata-1mg.webp",
+          "alt": "Tata 1mg",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/jubilant-foodworks.webp",
+          "alt": "Jubilant FoodWorks",
+          "width": 400,
+          "height": 148,
+          "displayWidth": 200,
+          "displayHeight": 74
+        },
+        {
+          "src": "/logos/logistics/transport/modicare.webp",
+          "alt": "Modicare",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/bigbasket.webp",
+          "alt": "bigbasket",
+          "width": 400,
+          "height": 144,
+          "displayWidth": 200,
+          "displayHeight": 72
+        },
+        {
+          "src": "/logos/logistics/transport/zomato.webp",
+          "alt": "Zomato",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/transport/happilo.webp",
+          "alt": "Happilo",
+          "width": 400,
+          "height": 122,
+          "displayWidth": 200,
+          "displayHeight": 61
+        },
+        {
+          "src": "/logos/logistics/transport/happi-planet.webp",
+          "alt": "Happi Planet",
+          "width": 400,
+          "height": 146,
+          "displayWidth": 200,
+          "displayHeight": 73
+        },
+        {
+          "src": "/logos/logistics/transport/urban-company.webp",
+          "alt": "Urban Company",
+          "width": 400,
+          "height": 130,
+          "displayWidth": 200,
+          "displayHeight": 65
+        },
+        {
+          "src": "/logos/logistics/transport/blinkit.webp",
+          "alt": "Blinkit",
+          "width": 400,
+          "height": 130,
+          "displayWidth": 200,
+          "displayHeight": 65
+        },
+        {
+          "src": "/logos/logistics/transport/licious.webp",
+          "alt": "Licious",
+          "width": 400,
+          "height": 168,
+          "displayWidth": 200,
+          "displayHeight": 84
+        }
+      ]
+    },
+    {
+      "eyebrow": "Trusted by",
+      "title": "Leading Clients - Warehousing",
+      "logos": [
+        {
+          "src": "/logos/logistics/warehousing/seven-eleven.webp",
+          "alt": "7-Eleven",
+          "width": 400,
+          "height": 136,
+          "displayWidth": 200,
+          "displayHeight": 68
+        },
+        {
+          "src": "/logos/logistics/warehousing/featherlite.webp",
+          "alt": "Featherlite",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/logistics/warehousing/meesho.webp",
+          "alt": "Meesho",
+          "width": 400,
+          "height": 152,
+          "displayWidth": 200,
+          "displayHeight": 76
+        }
+      ]
+    }
+  ],
+  "faqs": {
+    "eyebrow": "FAQs",
+    "title": "Answers, before you ask",
+    "description": "The questions brands ask most often about our transport and warehousing network - what we move, where we move it, and how you keep sight of it.",
+    "items": [
+      {
+        "q": "What logistics services does Ripplr offer?",
+        "a": "Intracity and intercity movement (surface and air), warehousing, a distribution management system, and tech-enabled solutions including vehicle tracking, GPS, intelligent sensors and cold chain support."
+      },
+      {
+        "q": "Where does Ripplr operate?",
+        "a": "Across 15+ cities in India - Bengaluru, Mumbai, Delhi, Hyderabad, Panjim, Pune, Chennai and more - supported by a network of micro-warehouses and hubs, with headquarters in Bengaluru."
+      },
+      {
+        "q": "Can Ripplr handle temperature-sensitive shipments?",
+        "a": "Yes. Cold chain solutions with intelligent sensor monitoring and product quality assurance are part of the standard offering - which is why brands in dairy, meat and seafood, and perishables use the network."
+      },
+      {
+        "q": "How do brands track their shipments and orders?",
+        "a": "Through Ripplr's platform. A master dashboard provides live tracking, alert monitoring, fleet data and invoice generation, while driver and supervisor apps handle delivery confirmation and payment collection with a full activity history. Sales information is shared with manufacturers in real time."
+      },
+      {
+        "q": "Which industries does Ripplr support?",
+        "a": "FMCG (core), dairy, meat and seafood, perishables, white goods and e-commerce - with tailored solutions across refrigeration, warehousing, logistics and analytics."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Ready when you are",
+    "titleParts": [
+      {
+        "t": "Bring your "
+      },
+      {
+        "t": "fleet",
+        "accent": true
+      },
+      {
+        "t": " online"
+      }
+    ],
+    "description": "Ripplr helps modern brands move products faster with better operational visibility and logistics intelligence.",
+    "primaryCta": {
+      "label": "Start Onboarding",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "See Distribution",
+      "href": "/services/distribution"
+    },
+    "art": {
+      "src": "/figma/logistics/LogistisCTA.webp",
+      "alt": "Ripplr fleet tracker illustration",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

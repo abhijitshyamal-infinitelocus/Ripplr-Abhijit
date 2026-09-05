@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "Environmental, Social, and Governance",
+    "description": "One truck and one warehouse serving many brands - 1,240t of CO₂e avoided every year, measured under the GHG Protocol."
+  },
+  "hero": {
+    "eyebrow": "ESG",
+    "title": "Environmental, Social, and ",
+    "titleAccent": "Governance",
+    "body": "Intelligent Retail Private Limited (\"Ripplr\") is committed to ensure a safe and healthful workplace and protecting the environment. We believe that safety and protecting the environment is good business and that all work-related injuries, illness, property losses and adverse environmental impacts are preventable.",
+    "art": {
+      "src": "/figma/esg/hero.webp",
+      "alt": "Ripplr fulfilment operations",
+      "video": "/figma/esg/videos/esg-hero.webm",
+      "videoMp4": "/figma/esg/videos/esg-hero.mp4",
+      "width": 2000,
+      "height": 1124
+    }
+  },
+  "impact": {
+    "kicker": "Climate & Resource Efficiency · Annualised from Jun 2026 actuals",
+    "title": "Distribution Consolidation the Planet Can Measure",
+    "description": "One truck and one warehouse serving many brands - avoided emissions measured under the GHG Protocol.",
+    "stats": [
+      { "value": "1,240t", "label": "CO₂e avoided every year" },
+      { "value": "415t", "label": "from consolidated trucking" },
+      { "value": "824t", "label": "from shared warehousing" },
+      { "value": "2Mn", "label": "digital records per year - an audit-ready invoice trail on every delivery" }
+    ],
+    "cards": [
+      {
+        "kicker": "ONE TRUCK, MANY BRANDS",
+        "subtitle": "Fewer trips for the same deliveries",
+        "bullets": [
+          [{ "t": "32 shops", "b": true }, { "t": " served per consolidated trip vs " }, { "t": "~20", "b": true }, { "t": " on traditional single-brand distributor routes" }],
+          [{ "t": "3,153", "b": true }, { "t": " fewer trips every month - " }, { "t": "157,621", "b": true }, { "t": " deliveries completed in " }, { "t": "4,868", "b": true }, { "t": " trips instead of " }, { "t": "8,021", "b": true }],
+          [{ "t": "1.7 Mn km", "b": true }, { "t": " and " }, { "t": "154,780 L", "b": true }, { "t": " of diesel avoided per year → " }, { "t": "415 t CO₂e", "b": true }]
+        ]
+      },
+      {
+        "kicker": "ONE WAREHOUSE, MANY BRANDS",
+        "subtitle": "Less space built, lit and powered",
+        "bullets": [
+          [{ "t": "82%", "b": true }, { "t": " utilisation in shared Ripplr FCs vs " }, { "t": "~58%", "b": true }, { "t": " in single-brand godowns sized for their own peak" }],
+          [{ "t": "63,920 sq ft", "b": true }, { "t": " of warehouse space never built - pooled brands whose seasonal peaks don't overlap" }],
+          [{ "t": "1.15 Mn kWh", "b": true }, { "t": " of electricity avoided per year → " }, { "t": "824 t CO₂e", "b": true }]
+        ]
+      }
+    ],
+    "methodologyLabel": "Methodology:",
+    "methodology": "GHG Protocol project accounting - avoided emissions vs a fragmented-distribution counterfactual. Emission factors: diesel 2.68 kg CO₂e/L (DEFRA 2024); grid electricity 0.716 kg CO₂e/kWh (CEA India). Annualised from June 2026 actuals across the multi-brand consolidation cohort."
+  },
+  "documents": {
+    "title": "Related Documents",
+    "items": [
+      { "label": "Download PDF", "href": "/documents/IRPL010-ESH-Policy.pdf", "icon": "/figma/esg/icon-pdf.svg" },
+      { "label": "Download PPT", "href": "/documents/ESG-Ripplr.pptx", "icon": "/figma/esg/icon-ppt.svg" }
+    ]
+  }
+}

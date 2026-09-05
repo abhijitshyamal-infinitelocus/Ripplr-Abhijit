@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Contact Us",
+    "description": "From brand onboarding to last-mile support - every conversation begins with a package. Average response under 24 hours."
+  },
+  "hero": {
+    "eyebrow": "Get in touch",
+    "headline": "Let's ",
+    "headlineAccent": "Move",
+    "headlineRest": "Things Forward",
+    "subhead": [
+      "From brand onboarding to last-mile support -",
+      "every conversation begins with a package."
+    ],
+    "art": {
+      "src": "/figma/contact/hero.webp",
+      "alt": "Ripplr delivery network illustration",
+      "video": "/figma/contact/videos/contact-hero.webm",
+      "videoMp4": "/figma/contact/videos/contact-hero.mp4",
+      "width": 2000,
+      "height": 1124
+    },
+    "primaryCta": {
+      "label": "Contact Now",
+      "href": "#enquiry"
+    }
+  },
+  "stats": {
+    "eyebrow": "Support",
+    "title": "Always Within Reach",
+    "items": [
+      {
+        "value": "24h",
+        "label": "Avg Response"
+      },
+      {
+        "value": "15+",
+        "label": "Operating in"
+      },
+      {
+        "value": "24x7",
+        "label": "Tech Support"
+      }
+    ]
+  },
+  "enquiry": {
+    "eyebrow": "Contact",
+    "title": "Send us a message",
+    "description": "Fill in the details below and our team will get back to you shortly.",
+    "tabs": [
+      {
+        "id": "distribution",
+        "label": "Distribution"
+      },
+      {
+        "id": "logistics",
+        "label": "Logistics"
+      }
+    ],
+    "formTitles": {
+      "distribution": "DISTRIBUTION ENQUIRY",
+      "logistics": "LOGISTICS ENQUIRY"
+    }
+  },
+  "visit": {
+    "eyebrow": "Visit us",
+    "title": "Head Office - Bengaluru",
+    "map": {
+      "embedSrc": "https://www.google.com/maps?q=12.9139158,77.6281215&z=16&output=embed",
+      "title": "Map showing the Ripplr head office in HSR Layout, Bengaluru"
+    },
+    "office": {
+      "eyebrow": "Corporate office",
+      "name": "Ripplr Head Office",
+      "address": [
+        "HSR Layout, Sector 4,",
+        "Bengaluru, Karnataka 560102, India"
+      ],
+      "rows": [
+        {
+          "icon": "mail",
+          "label": "General Enquiries",
+          "value": "contactus@ripplr.in",
+          "href": "mailto:contactus@ripplr.in"
+        },
+        {
+          "icon": "briefcase",
+          "label": "Careers",
+          "value": "careers@ripplr.in",
+          "href": "mailto:careers@ripplr.in"
+        },
+        {
+          "icon": "linkedin",
+          "label": "Follow us on",
+          "value": "Linkedin",
+          "href": "https://www.linkedin.com/company/intelligent-retail-pvt-ltd/"
+        }
+      ],
+      "cta": {
+        "label": "Get Directions",
+        "href": "https://maps.app.goo.gl/icwtrtFbhLfqHALu9"
+      }
+    }
+  }
+}

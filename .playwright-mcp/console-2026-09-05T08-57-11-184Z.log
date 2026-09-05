@@ -1,0 +1,5 @@
+[     306ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/0_wq_next_dist_0dhev8c._.js:776
+[     363ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/0_wq_next_dist_0dhev8c._.js:776
+[     527ms] [WARNING] Image with src "http://localhost:3000/brand/ripplr-wordmark-light.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/0_wq_next_dist_0dhev8c._.js:776
+[     608ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/0_wq_next_dist_0dhev8c._.js:776
+[     681ms] [LOG] [Fast Refresh] done in 180ms @ http://localhost:3000/_next/static/chunks/0_wq_next_dist_0dhev8c._.js:776

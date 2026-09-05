@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "title": "Culture",
+    "description": "From celebrations and sports to milestones and team outings, we foster a culture where every individual feels valued, connected, and inspired to grow together."
+  },
+  "hero": {
+    "eyebrow": "Life at Ripplr",
+    "headline": "Beyond Work,",
+    "headlineSecond": "We Build ",
+    "headlineAccent": "Relationships",
+    "subhead": "From celebrations and sports to milestones and team outings, we foster a culture where every individual feels valued, connected, and inspired to grow together.",
+    "primaryCta": {
+      "label": "View Careers",
+      "href": "/careers"
+    },
+    "secondaryCta": {
+      "label": "Get in Touch",
+      "href": "/contact-us"
+    },
+    "slides": [
+      {
+        "src": "/figma/culture/culture-hero-1.webp",
+        "alt": "Ripplrites at a birthday celebration, a volleyball game, a lounge catch-up and a team high five",
+        "label": "Team Outings",
+        "width": 1469,
+        "height": 1071
+      },
+      {
+        "src": "/figma/culture/culture-hero-2.webp",
+        "alt": "Ripplrites dancing, toasting at a decorated table, posing as a group and cutting a cake",
+        "label": "Team Parties",
+        "width": 1448,
+        "height": 1086
+      },
+      {
+        "src": "/figma/culture/culture-hero-3.webp",
+        "alt": "Ripplrites celebrating Diwali, Christmas, Onam and a festive office gathering",
+        "label": "Festivals & Celebrations",
+        "width": 1448,
+        "height": 1086
+      }
+    ]
+  },
+  "moments": {
+    "eyebrow": "Glimpses from our journey together",
+    "title": "Moments That Matter",
+    "description": "The celebrations, milestones, and everyday wins that make Ripplr feel like home.",
+    "photos": [
+      {
+        "src": "/figma/culture/moments/badminton.webp",
+        "alt": "Two Ripplrites facing off on the badminton court"
+      },
+      {
+        "src": "/figma/culture/moments/cricket-trophy.webp",
+        "alt": "The Ripplr cricket team with their trophy after a win"
+      },
+      {
+        "src": "/figma/culture/moments/cake-cutting.webp",
+        "alt": "Colleagues gathered around a birthday cake in the office"
+      },
+      {
+        "src": "/figma/culture/moments/cricket-squad.webp",
+        "alt": "The Ripplr cricket squad in kit on the pitch"
+      },
+      {
+        "src": "/figma/culture/moments/sports-day-team.webp",
+        "alt": "The full squad lined up on the field for sports day"
+      },
+      {
+        "src": "/figma/culture/moments/warehouse-cake.webp",
+        "alt": "A cake cutting on the warehouse floor"
+      },
+      {
+        "src": "/figma/culture/moments/ethnic-day.webp",
+        "alt": "Ripplrites in ethnic wear gathered in the office"
+      },
+      {
+        "src": "/figma/culture/moments/offsite-group.webp",
+        "alt": "The team together at an offsite"
+      },
+      {
+        "src": "/figma/culture/moments/marathon-selfie.webp",
+        "alt": "A selfie from the marathon start line"
+      },
+      {
+        "src": "/figma/culture/moments/run-together.webp",
+        "alt": "Two Ripplrites out on a run together"
+      },
+      {
+        "src": "/figma/culture/moments/cricket-ground.webp",
+        "alt": "Three Ripplrites with a bat on the cricket ground"
+      },
+      {
+        "src": "/figma/culture/moments/festival.webp",
+        "alt": "Ripplrites around a decorated festival setup in the office"
+      },
+      {
+        "src": "/figma/culture/moments/office-gathering.webp",
+        "alt": "Ripplrites catching up over a gathering in the office"
+      },
+      {
+        "src": "/figma/culture/moments/team-portrait.webp",
+        "alt": "A full team portrait outdoors"
+      },
+      {
+        "src": "/figma/culture/moments/festival-team.webp",
+        "alt": "The team dressed up for a festival celebration"
+      },
+      {
+        "src": "/figma/culture/moments/marathon.webp",
+        "alt": "Ripplrites in race bibs at the start of a marathon"
+      },
+      {
+        "src": "/figma/culture/moments/festival-corridor.webp",
+        "alt": "Ripplrites gathered along the office corridor for a festival"
+      },
+      {
+        "src": "/figma/culture/moments/office-celebration.webp",
+        "alt": "A team celebration in the office"
+      },
+      {
+        "src": "/figma/culture/moments/townhall.webp",
+        "alt": "A Ripplrite speaking at a decorated office townhall"
+      }
+    ],
+    "linkedinCard": {
+      "title": "More moments every month",
+      "body": "Follow Ripplr on LinkedIn for the latest celebrations, wins, and everything in between.",
+      "cta": "Follow Ripplr on LinkedIn"
+    }
+  },
+  "voices": {
+    "eyebrow": "Ripplrites' words",
+    "title": "Voices from the Floor",
+    "description": "Straight from the people who build Ripplr every day.",
+    "slides": [
+      {
+        "featured": {
+          "quote": "As a designer, Ripplr has taught me that good design isn't just about how a product looks - it's about making complex operations simpler for the people who use them every day, from the warehouse floor to the field.",
+          "name": "Suresh",
+          "role": "Jr. UI/UX Designer",
+          "photo": "/figma/culture/people/suresh.webp"
+        },
+        "secondary": [
+          {
+            "quote": "At Ripplr, we obsess over users to build meaningful products that improve lives and drive business efficiently.",
+            "name": "Rohit",
+            "role": "Associate Product Manager · Logistics",
+            "photo": "/figma/culture/people/rohit.webp"
+          },
+          {
+            "quote": "What stands out at Ripplr is the freedom to take a problem from zero to solved - you don't just learn product thinking here, you live it.",
+            "name": "Kartik Palkurtiwar",
+            "role": "Associate Product Manager · Distribution",
+            "photo": "/figma/culture/people/kartik-palkurtiwar.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "My journey at Ripplr has taken me from Application Support to Data Analytics, built on continuous learning and growth. Along the way, I've developed strong skills in SQL, Power BI, and Python to solve real business problems through data.",
+          "name": "Sudarshan Shetty",
+          "role": "Data Analyst",
+          "photo": "/figma/culture/people/sudarshan-shetty.webp"
+        },
+        "secondary": [
+          {
+            "quote": "At Ripplr, I grew from Customer Success to Tech Engineer, resolving critical issues, and improving operational efficiency through technology.",
+            "name": "Jeevan N",
+            "role": "Application Engineer · Tech",
+            "photo": "/figma/culture/people/jeevan-n.webp"
+          },
+          {
+            "quote": "Working with great leaders turns challenges into opportunities and visions into reality.",
+            "name": "Ayub Pasha",
+            "role": "Application Engineer · Tech",
+            "photo": "/figma/culture/people/ayub-pasha.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "Working at Ripplr has been an incredible journey, enabling me to build impactful data solutions alongside some truly exceptional minds.",
+          "name": "Akshatha HT",
+          "role": "Senior Data Engineer",
+          "photo": "/figma/culture/people/akshatha-ht.webp"
+        },
+        "secondary": [
+          {
+            "quote": "From customer queries to production issues - I troubleshoot, solve, learn, and somehow keep everything running.",
+            "name": "Praveen P",
+            "role": "Application Engineer · Tech",
+            "photo": "/figma/culture/people/praveen-p.webp"
+          },
+          {
+            "quote": "Ripplr has been a platform for refining my skills and providing valuable insights on teamwork and dynamic work environment.",
+            "name": "Chiranjeevi H G",
+            "role": "Product Analyst",
+            "photo": "/figma/culture/people/chiranjeevi-hg.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "A company's true value isn't just in its balance sheet - it's in the vision it pursues, the problems it solves, and the trust it earns over time.",
+          "name": "Kishor AM",
+          "role": "Finance Executive",
+          "photo": "/figma/culture/people/kishor-am.webp"
+        },
+        "secondary": [
+          {
+            "quote": "A workplace filled with a supportive and collaborative environment.",
+            "name": "Arti Rungta",
+            "role": "Finance Executive",
+            "photo": "/figma/culture/people/arti-rungta.webp"
+          },
+          {
+            "quote": "In logistics, finance ensures efficiency isn't just fast - it's profitable and sustainable.",
+            "name": "Sowkya Suresh",
+            "role": "Finance Executive",
+            "photo": "/figma/culture/people/sowkya-suresh.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "Working with Ripplr has been a catalyst for excellence, innovation, and transformative leadership in supply chain.",
+          "name": "Shashi Kumar",
+          "role": "Control Tower Manager",
+          "photo": "/figma/culture/people/shashi-kumar.webp"
+        },
+        "secondary": [
+          {
+            "quote": "Working with great leaders turns challenges into opportunities and visions into reality.",
+            "name": "Pavan Kumar",
+            "role": "Data Analyst · FP&A",
+            "photo": "/figma/culture/people/pavan-kumar.webp"
+          },
+          {
+            "quote": "Being surrounded by inspiring leaders and passionate individuals has constantly pushed me to grow, stay curious, and aim higher in my career.",
+            "name": "Sheik Muddasir",
+            "role": "Associate Product Manager · Distribution",
+            "photo": "/figma/culture/people/sheik-muddasir.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "Leading finance at Ripplr has been an incredible journey of blending financial discipline with rapid supply chain scale. Managing unit economics and cash flow in a tech-driven logistics environment challenges you to think strategically every day.",
+          "name": "Chetan",
+          "role": "Finance Manager · Electronics",
+          "photo": "/figma/culture/people/chetan.webp"
+        },
+        "secondary": [
+          {
+            "quote": "Ripplr's supportive environment makes it a great place to work and grow. I enjoy working with the team and growing my skills.",
+            "name": "Amrit Kumar",
+            "role": "Finance Executive",
+            "photo": "/figma/culture/people/amrit-kumar.webp"
+          },
+          {
+            "quote": "I enjoy working with data, solving business challenges, learning something new every day. What makes Ripplr special is the opportunity to grow, collaborate.",
+            "name": "Abhishek Chand",
+            "role": "Data Analyst",
+            "photo": "/figma/culture/people/abhishek-chand.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "Ripplr provides a dynamic and fast-paced work environment where individuals are given opportunities to take on new responsibilities and expand their skills. The collaborative culture, supportive leadership, and cross-functional exposure have helped me strengthen my commercial and operational expertise.",
+          "name": "Appasab Narawade",
+          "role": "Commercial Manager",
+          "photo": "/figma/culture/people/appasab-narawade.webp"
+        },
+        "secondary": [
+          {
+            "quote": "Ripplr has been a journey of continuous learning and growth. I'm grateful for the people, support, and opportunities that help me grow every day.",
+            "name": "Govindaraju KM",
+            "role": "Assistant Commercial Manager",
+            "photo": "/figma/culture/people/govindaraju-km.webp"
+          },
+          {
+            "quote": "Ripplr is a place to learn, take on challenges, and build a meaningful career - with the support and opportunities to grow.",
+            "name": "Venkatesh K",
+            "role": "Control Tower · Sales",
+            "photo": "/figma/culture/people/venkatesh-k.webp"
+          }
+        ]
+      },
+      {
+        "featured": {
+          "quote": "Ripplr has been my first company in Bangalore and an incredible learning journey. It taught me ownership, responsibility, and the confidence to grow. I'm grateful to my managers and seniors for their constant support and guidance. Proud to have witnessed Ripplr's growth and to be a part of its journey.",
+          "name": "Preeti Swain",
+          "role": "Management Executive",
+          "photo": "/figma/culture/people/preeti-swain.webp"
+        },
+        "secondary": [
+          {
+            "quote": "Ripplr has given me many opportunities to learn new things & improve my skills. I'm happy to be part of the Ripplr family and look forward to growing together.",
+            "name": "Bhavana",
+            "role": "Management Trainee · Finance",
+            "photo": "/figma/culture/people/bhavana.webp"
+          },
+          {
+            "quote": "Ripplr is giving me good exposure towards brand handling and future scope of involving in to business with other top Brands.",
+            "name": "Sunil Kumar S",
+            "role": "Zonal Business Manager · Electronics",
+            "photo": "/figma/culture/people/preeti.webp"
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Get started",
+    "title": "Join us on our Journey",
+    "description": "We're building something exceptional - explore opportunities to grow, celebrate, and win with us.",
+    "primaryCta": {
+      "label": "View Careers",
+      "href": "/careers"
+    },
+    "secondaryCta": {
+      "label": "Get in Touch",
+      "href": "/contact-us"
+    },
+    "art": {
+      "src": "/figma/culture/CultureCTA.webp",
+      "alt": "Ripplrites climbing steps to a flag on a summit marked “Together We Grow”",
+      "width": 345,
+      "height": 285
+    }
+  }
+}

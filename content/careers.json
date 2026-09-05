@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "title": "Careers",
+    "description": "Looking for a bright future? If you're planning for a better tomorrow, Ripplr may be the right place for you."
+  },
+  "hero": {
+    "eyebrow": "Careers at Ripplr",
+    "headline": "Join the team behind the ",
+    "headlineAccent": "future of work",
+    "subhead": "Looking for a bright future? If you're planning for a better tomorrow, Ripplr may be the right place for you.",
+    "primaryCta": {
+      "label": "See Open Roles",
+      "href": "#open-roles"
+    },
+    "secondaryCta": {
+      "label": "Life at Ripplr",
+      "href": "/culture"
+    },
+    "art": {
+      "src": "/figma/careers/careers-hero.webp",
+      "alt": "Ripplr interview in progress, linked to a store and a fulfilment centre",
+      "video": "/figma/careers/videos/careers-hero.webm",
+      "videoMp4": "/figma/careers/videos/careers-hero.mp4",
+      "width": 2000,
+      "height": 1124
+    }
+  },
+  "perks": {
+    "eyebrow": "Why us",
+    "title": "Perks that matter",
+    "description": "Benefits designed around outcomes - not optics.",
+    "items": [
+      {
+        "icon": "heart",
+        "title": "Wellness first",
+        "body": "Full health cover for you and your family + mental wellness allowance."
+      },
+      {
+        "icon": "badge-check",
+        "title": "Real ownership",
+        "body": "Meaningful ESOPs for everyone, not just leadership."
+      },
+      {
+        "icon": "send",
+        "title": "Recharge time",
+        "body": "Unlimited time off - we measure outcomes, not hours."
+      },
+      {
+        "icon": "graduation-cap",
+        "title": "Always learning",
+        "body": "₹50,000/yr learning budget + monthly book club + Ripplr Academy."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Best gear",
+        "body": "Pick your machine. We back it with whatever you need to ship."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Flexible work",
+        "body": "Hybrid by default. Async-friendly. Outcomes over optics."
+      }
+    ]
+  },
+  "openRoles": {
+    "eyebrow": "Open roles",
+    "title": "Find your place",
+    "filters": [
+      "All",
+      "Operations",
+      "Commercial",
+      "Finance",
+      "Engineering"
+    ],
+    "applyHref": "#talent-pool",
+    "emptyState": {
+      "title": "No open roles right now",
+      "body": "Submit your profile below, and we'll reach out when a suitable opportunity comes up.",
+      "art": {
+        "src": "/figma/careers/no-roles.webp",
+        "alt": "A Ripplrite at a desk beside a board reading “No open roles right now”",
+        "width": 354,
+        "height": 283
+      }
+    },
+    "roles": []
+  },
+  "talentPool": {
+    "eyebrow": "Talent pool",
+    "title": "Don't see a fit , Stay on our radar.",
+    "description": "Drop your details and we'll reach out the moment a role opens up that matches you.",
+    "panel": {
+      "title": "The right role might be around the corner.",
+      "body": "Leave your details with us and let's connect when the opportunity feels right."
+    },
+    "form": {
+      "fields": [
+        {
+          "name": "fullName",
+          "label": "Full Name",
+          "placeholder": "John Doe",
+          "type": "text",
+          "required": true,
+          "half": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "placeholder": "you@example.com",
+          "type": "email",
+          "required": true,
+          "half": true
+        },
+        {
+          "name": "role",
+          "label": "Role of interest",
+          "placeholder": "Product Designer",
+          "type": "text",
+          "required": true,
+          "half": true
+        },
+        {
+          "name": "experience",
+          "label": "Years of experience",
+          "placeholder": "5 years",
+          "type": "text",
+          "required": true,
+          "half": true
+        },
+        {
+          "name": "portfolio",
+          "label": "LinkedIn or portfolio",
+          "placeholder": "https://linkedin.com/in/...",
+          "type": "url",
+          "required": true,
+          "half": false
+        }
+      ],
+      "resumeLabel": "Resume",
+      "resumeHint": "Drop your resume here or click to upload",
+      "submitLabel": "Join Talent Pool"
+    }
+  }
+}

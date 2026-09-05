@@ -1,0 +1,377 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Ripplr home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Ripplr" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: /
+        - link "About Us" [ref=e13] [cursor=pointer]:
+          - /url: /about-us
+        - link "Services" [ref=e16] [cursor=pointer]:
+          - /url: /services/distribution
+        - link "Culture" [ref=e21] [cursor=pointer]:
+          - /url: /culture
+        - link "Careers" [ref=e24] [cursor=pointer]:
+          - /url: /careers
+      - link "Contact Us" [ref=e29] [cursor=pointer]:
+        - /url: /contact-us
+  - main [ref=e35]:
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]:
+            - generic [ref=e40]: Next-Gen Logistics Solutions
+            - heading "Join Us in Shaping the Future of Distribution & Logistics" [level=1] [ref=e42]:
+              - generic [ref=e43]: Join
+              - generic [ref=e45]: Us
+              - generic [ref=e47]: in
+              - generic [ref=e49]: Shaping
+              - generic [ref=e51]: the
+              - generic [ref=e53]: Future
+              - generic [ref=e55]: of
+              - generic [ref=e57]: Distribution
+              - generic [ref=e59]: "&"
+              - generic [ref=e61]: Logistics
+            - paragraph [ref=e64]: Powering every step of India's retail supply chain.
+            - generic [ref=e66]:
+              - link "Onboard Your Brand" [ref=e68] [cursor=pointer]:
+                - /url: /contact-us
+              - link "Explore Services" [ref=e75] [cursor=pointer]:
+                - /url: /services/distribution
+          - generic [ref=e82]:
+            - img "Ripplr connects brands to wholesalers, supermarkets, online fulfilment, retailers, logistics and micro-warehousing" [ref=e85]
+            - generic [ref=e92]:
+              - generic [ref=e93]: Fill rate
+              - generic [ref=e94]: 95%
+            - generic [ref=e100]:
+              - generic [ref=e101]: Vehicles live
+              - generic [ref=e102]: 700+
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]: 0K+
+            - generic [ref=e108]: Retailer Reach
+          - generic [ref=e109]:
+            - generic [ref=e110]: 0+
+            - generic [ref=e111]: Brand Partners
+          - generic [ref=e112]:
+            - generic [ref=e113]: 0M+
+            - generic [ref=e114]: Monthly SKU Delivered
+          - generic [ref=e115]:
+            - generic [ref=e116]: 0K+
+            - generic [ref=e117]: Monthly Trips Managed
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - generic [ref=e120]: Brands
+          - heading "Trusted by Industry Leaders" [level=2] [ref=e123]
+        - generic [ref=e127]:
+          - img "Acer" [ref=e129]
+          - img "Licious" [ref=e131]
+          - img "Reliance Trends" [ref=e133]
+          - img "HP" [ref=e135]
+          - img "Godrej" [ref=e137]
+          - img "DMart" [ref=e139]
+          - img "XpressBees" [ref=e141]
+          - img "Milkbasket" [ref=e143]
+          - img "Tata 1mg" [ref=e145]
+          - img "Ooge" [ref=e147]
+          - img "Jubilant FoodWorks" [ref=e149]
+          - img "7-Eleven" [ref=e151]
+          - img "Hisense" [ref=e153]
+          - img "Modicare" [ref=e155]
+          - img "bigbasket" [ref=e157]
+          - img "Zomato" [ref=e159]
+          - img "Meesho" [ref=e161]
+          - img "Google Pixel" [ref=e163]
+          - img "Happilo" [ref=e165]
+          - img "Happi Planet" [ref=e167]
+          - img "Dabur" [ref=e169]
+          - img "Urban Company" [ref=e171]
+          - img "Samsung" [ref=e173]
+          - img "Noise" [ref=e175]
+          - img "Nothing" [ref=e177]
+          - img "POCO" [ref=e179]
+          - img "Marico" [ref=e181]
+          - img "Britannia" [ref=e183]
+          - img "Nestlé" [ref=e185]
+          - img "Sunpure" [ref=e187]
+          - img "Gold Drop" [ref=e189]
+          - img "Unilever" [ref=e191]
+      - generic [ref=e258]:
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - generic [ref=e262]: Services
+            - heading "Optimized for Supply Chain Efficiency" [level=2] [ref=e264]:
+              - generic [ref=e265]: Optimized
+              - generic [ref=e267]: for
+              - generic [ref=e269]: Supply
+              - generic [ref=e271]: Chain
+              - generic [ref=e273]: Efficiency
+            - paragraph [ref=e276]: Six services. One operating system. Pick where you want to start.
+          - tablist [ref=e278]:
+            - tab "Distribution" [selected] [ref=e279]
+            - tab "Logistics" [ref=e281]
+            - tab "Technology" [ref=e282]
+        - generic [ref=e283]:
+          - article [ref=e284]:
+            - generic [ref=e285]:
+              - img "Ripplr's distribution hub linking warehousing, storage, dashboards, retail and delivery" [ref=e287]
+              - generic [ref=e290]: "01"
+            - generic [ref=e291]:
+              - heading "End-to-End Distribution Management" [level=3] [ref=e292]
+              - paragraph [ref=e293]: Operate the complete distribution lifecycle - from procurement and warehousing to order fulfillment, delivery, collections and retailer servicing - with real-time visibility on every order, beat and SKU.
+              - list [ref=e294]:
+                - listitem [ref=e295]: 93k+ retailers served
+                - listitem [ref=e296]: 1cr+ deliveries completed
+              - link "Explore Distribution" [ref=e297] [cursor=pointer]:
+                - /url: /services/distribution
+          - article [ref=e302]:
+            - generic [ref=e303]:
+              - img "Brands plugging into Ripplr's distributor-as-a-service hub for delivery, market reach and managed operations" [ref=e305]
+              - generic [ref=e307]: "02"
+            - generic [ref=e308]:
+              - heading "Distributor-as-a-Service" [level=3] [ref=e309]
+              - paragraph [ref=e310]: Launch and manage dedicated distribution operations for brands without requiring them to build their own distribution network.
+              - list [ref=e311]:
+                - listitem [ref=e312]: Zero setup overhead
+                - listitem [ref=e313]: Faster market entry
+              - link "Explore Distribution" [ref=e314] [cursor=pointer]:
+                - /url: /services/distribution
+          - article [ref=e319]:
+            - generic [ref=e320]:
+              - img "A control tower operator watching shipment, order and service-level dashboards" [ref=e322]
+              - generic [ref=e324]: "03"
+            - generic [ref=e325]:
+              - heading "Distribution Control Tower" [level=3] [ref=e326]
+              - paragraph [ref=e327]: Monitor inventory, sales, deliveries, service levels, and operational KPIs through a centralized command center with advance dashboards.
+              - list [ref=e328]:
+                - listitem [ref=e329]: Real-time visibility
+                - listitem [ref=e330]: Centralized operations
+              - link "Explore Distribution" [ref=e331] [cursor=pointer]:
+                - /url: /services/distribution
+          - article [ref=e336]:
+            - generic [ref=e337]:
+              - img "A Ripplr warehouse feeding general trade, modern trade, pharmacy, e-commerce and institutional channels" [ref=e339]
+              - generic [ref=e341]: "04"
+            - generic [ref=e342]:
+              - heading "Multi-Channel Distribution" [level=3] [ref=e343]
+              - paragraph [ref=e344]: Support General Trade, Modern Trade, E-commerce, B2B, Institutional, and Exclusive Brand Stores through a unified operation.
+              - list [ref=e345]:
+                - listitem [ref=e346]: Modern trade ready
+                - listitem [ref=e347]: General trade coverage
+              - link "Explore Distribution" [ref=e348] [cursor=pointer]:
+                - /url: /services/distribution
+          - article [ref=e353]:
+            - generic [ref=e354]:
+              - img "A Ripplr fulfilment centre servicing a network of retailer storefronts" [ref=e356]
+              - generic [ref=e358]: "05"
+            - generic [ref=e359]:
+              - heading "Retail Network Management" [level=3] [ref=e360]
+              - paragraph [ref=e361]: Build, onboard, manage, and service thousands of retailers with structured sales and distribution operations.
+              - list [ref=e362]:
+                - listitem [ref=e363]: 11+ cities covered
+                - listitem [ref=e364]: 93k+ retailers
+              - link "Explore Distribution" [ref=e365] [cursor=pointer]:
+                - /url: /services/distribution
+          - article [ref=e370]:
+            - generic [ref=e371]:
+              - img "Demand forecasting, replenishment planning and safety stock dashboards beside a warehouse" [ref=e373]
+              - generic [ref=e375]: "06"
+            - generic [ref=e376]:
+              - heading "Inventory Planning & Optimization" [level=3] [ref=e377]
+              - paragraph [ref=e378]: Optimize inventory levels using demand forecasting, replenishment planning, safety stock management, and intelligent allocation.
+              - list [ref=e379]:
+                - listitem [ref=e380]: Smarter forecasting
+                - listitem [ref=e381]: Lower stockouts
+              - link "Explore Distribution" [ref=e382] [cursor=pointer]:
+                - /url: /services/distribution
+      - generic [ref=e390]:
+        - generic [ref=e391]:
+          - generic [ref=e392]: Performance
+          - heading "Measured Through Operational Excellence" [level=2] [ref=e394]:
+            - generic [ref=e395]: Measured
+            - generic [ref=e397]: Through
+            - generic [ref=e399]: Operational
+            - generic [ref=e401]: Excellence
+        - generic [ref=e403]:
+          - generic [ref=e405]:
+            - generic [ref=e407]: 0+
+            - generic [ref=e408]: Years Active
+          - generic [ref=e410]:
+            - generic [ref=e412]: 0+
+            - generic [ref=e413]: Cities Covered Through Partners
+          - generic [ref=e415]:
+            - generic [ref=e417]: 0k+
+            - generic [ref=e418]: Orders Processed Monthly
+          - generic [ref=e420]:
+            - generic [ref=e422]: 0.0x+
+            - generic [ref=e423]: Monthly Repeat Order Ration
+          - generic [ref=e425]:
+            - generic [ref=e427]: 0%+
+            - generic [ref=e428]: Next-Day Delivery Success
+      - generic [ref=e430]:
+        - generic [ref=e432]:
+          - generic [ref=e433]: Updates
+          - heading "Tracking Industry Growth Stories" [level=2] [ref=e435]:
+            - generic [ref=e436]: Tracking
+            - generic [ref=e438]: Industry
+            - generic [ref=e440]: Growth
+            - generic [ref=e442]: Stories
+          - paragraph [ref=e445]: Ripplr in the news.
+        - generic [ref=e446]:
+          - article [ref=e447]:
+            - link "Illustration of a bank, coin stacks and a rising arrow marking Ripplr's revenue growth Funding · 11 May 2026 Ripplr's FY26 Revenue Jumps 32% to ₹1,820 Cr, Loss Narrows Over 50% Read the full article" [ref=e448] [cursor=pointer]:
+              - /url: https://inc42.com/buzz/ripplrs-fy26-revenue-jumps-32-to-%E2%82%B91820-cr-loss-narrows-over-50/
+              - img "Illustration of a bank, coin stacks and a rising arrow marking Ripplr's revenue growth" [ref=e450]
+              - generic [ref=e452]:
+                - generic [ref=e453]: Funding · 11 May 2026
+                - heading "Ripplr's FY26 Revenue Jumps 32% to ₹1,820 Cr, Loss Narrows Over 50%" [level=3] [ref=e454]
+                - generic [ref=e455]: Read the full article
+          - generic [ref=e459]:
+            - article [ref=e460]:
+              - link "Illustration of a rising chart lifting Ripplr's retail distribution network Funding · 01 Dec 2025 Ripplr Raises $45M in Series C Funding Read the full article" [ref=e461] [cursor=pointer]:
+                - /url: https://india.entrepreneur.com/news-and-trends/ripplr-raises-usd-45-mn-in-series-c-funding/500252
+                - img "Illustration of a rising chart lifting Ripplr's retail distribution network" [ref=e463]
+                - generic [ref=e465]:
+                  - generic [ref=e466]: Funding · 01 Dec 2025
+                  - heading "Ripplr Raises $45M in Series C Funding" [level=3] [ref=e467]
+                  - generic [ref=e468]: Read the full article
+            - article [ref=e472]:
+              - link "Illustration of investment flowing between Sojitz and Ripplr facilities Funding · 28 Nov 2025 Ripplr Raises ₹200.3 Cr From Sojitz Corporation, Others Read the full article" [ref=e473] [cursor=pointer]:
+                - /url: https://app.dealroom.co/news/feed/ripplr-secures-inr-200-cr-funding
+                - img "Illustration of investment flowing between Sojitz and Ripplr facilities" [ref=e475]
+                - generic [ref=e477]:
+                  - generic [ref=e478]: Funding · 28 Nov 2025
+                  - heading "Ripplr Raises ₹200.3 Cr From Sojitz Corporation, Others" [level=3] [ref=e479]
+                  - generic [ref=e480]: Read the full article
+            - article [ref=e484]:
+              - link "04 Financials · 25 Nov 2025 Ripplr Reports ₹91 Cr Loss on ₹1,164 Cr Revenue in FY25 Read the full article" [ref=e485] [cursor=pointer]:
+                - /url: https://entrackr.com/fintrackr/ripplr-reports-rs-91-cr-loss-on-rs-1164-cr-gmv-in-fy25-10810462
+                - generic [ref=e486]: "04"
+                - generic [ref=e487]:
+                  - generic [ref=e488]: Financials · 25 Nov 2025
+                  - heading "Ripplr Reports ₹91 Cr Loss on ₹1,164 Cr Revenue in FY25" [level=3] [ref=e489]
+                  - generic [ref=e490]: Read the full article
+            - article [ref=e494]:
+              - link "05 Funding · 10 May 2023 Ripplr Raises $40M in Funding Led by Fireside Ventures Read the full article" [ref=e495] [cursor=pointer]:
+                - /url: https://economictimes.indiatimes.com/tech/funding/fmcg-distribution-and-logistics-startup-ripplr-raises-40-million-led-by-fireside-ventures/articleshow/100138451.cms
+                - generic [ref=e496]: "05"
+                - generic [ref=e497]:
+                  - generic [ref=e498]: Funding · 10 May 2023
+                  - heading "Ripplr Raises $40M in Funding Led by Fireside Ventures" [level=3] [ref=e499]
+                  - generic [ref=e500]: Read the full article
+      - generic [ref=e505]:
+        - generic [ref=e506]:
+          - generic [ref=e507]: Connect
+          - heading "Ready to Transform Your Distribution?" [level=2] [ref=e509]:
+            - generic [ref=e510]: Ready
+            - generic [ref=e512]: to
+            - generic [ref=e514]: Transform
+            - generic [ref=e516]: Your
+            - generic [ref=e518]: Distribution?
+          - paragraph [ref=e521]: Connect with our experts to discover tailored distribution and supply chain solutions.
+        - generic [ref=e523]:
+          - generic [ref=e524]:
+            - img "A Ripplr support agent at a desk, taking enquiries from brands across India" [ref=e527]
+            - generic [ref=e531]:
+              - heading "Reach out to RIPPLR team" [level=3] [ref=e532]
+              - list [ref=e533]:
+                - listitem [ref=e534]:
+                  - link "contactus@ripplr.in" [ref=e535] [cursor=pointer]:
+                    - /url: mailto:contactus@ripplr.in
+                - listitem [ref=e541]:
+                  - generic [ref=e542]: HSR Layout, Sector 6, Bengaluru 560102
+              - link "Navigate Now" [ref=e550] [cursor=pointer]:
+                - /url: https://maps.app.goo.gl/icwtrtFbhLfqHALu9
+          - generic [ref=e556]:
+            - generic [ref=e557]:
+              - tablist [ref=e558]:
+                - tab "Distribution" [selected] [ref=e559]
+                - tab "Logistics" [ref=e561]
+              - generic [ref=e562]: Avg response · 24h
+            - generic [ref=e565]:
+              - heading "DISTRIBUTION ENQUIRY" [level=3] [ref=e566]
+              - generic [ref=e567]:
+                - textbox "First name *" [ref=e568]:
+                  - /placeholder: Enter first name
+                - generic: First name *
+              - generic [ref=e569]:
+                - textbox "Last name *" [ref=e570]:
+                  - /placeholder: Enter last name
+                - generic: Last name *
+              - generic [ref=e571]:
+                - textbox "Email address *" [ref=e572]:
+                  - /placeholder: you@company.com
+                - generic: Email address *
+              - generic [ref=e573]:
+                - textbox "Phone number *" [ref=e574]:
+                  - /placeholder: 98xxxxxx
+                - generic: Phone number *
+              - generic [ref=e575]:
+                - textbox "Message *" [ref=e576]:
+                  - /placeholder: Tell us a bit about your enquiry
+                - generic: Message *
+              - button "Send Message" [ref=e578]
+  - contentinfo [ref=e584]:
+    - generic [ref=e587]:
+      - generic [ref=e588]:
+        - generic [ref=e589]: Distribution
+        - generic [ref=e591]: Logistics
+        - generic [ref=e593]: Warehousing
+        - generic [ref=e595]: Control Tower
+        - generic [ref=e597]: Cold Chain
+        - generic [ref=e599]: Technology
+        - generic [ref=e601]: New India
+      - generic [aria-hidden] [ref=e603]:
+        - generic [ref=e604]: Distribution
+        - generic [ref=e606]: Logistics
+        - generic [ref=e608]: Warehousing
+        - generic [ref=e610]: Control Tower
+        - generic [ref=e612]: Cold Chain
+        - generic [ref=e614]: Technology
+        - generic [ref=e616]: New India
+    - generic [ref=e618]:
+      - generic [ref=e619]:
+        - img "Ripplr" [ref=e620]
+        - paragraph [ref=e621]: Leading the future of distribution with innovative logistics solutions and cutting-edge technology.
+        - link [ref=e622] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/intelligent-retail-pvt-ltd/
+      - generic [ref=e626]:
+        - heading "Services" [level=4] [ref=e627]
+        - list [ref=e628]:
+          - listitem [ref=e629]:
+            - link "Distribution" [ref=e630] [cursor=pointer]:
+              - /url: /services/distribution
+          - listitem [ref=e634]:
+            - link "Logistics" [ref=e635] [cursor=pointer]:
+              - /url: /services/logistics
+      - generic [ref=e639]:
+        - heading "Company" [level=4] [ref=e640]
+        - list [ref=e641]:
+          - listitem [ref=e642]:
+            - link "About Us" [ref=e643] [cursor=pointer]:
+              - /url: /about-us
+          - listitem [ref=e647]:
+            - link "ESG" [ref=e648] [cursor=pointer]:
+              - /url: /esg
+          - listitem [ref=e652]:
+            - link "Careers" [ref=e653] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=e657]:
+            - link "Contact" [ref=e658] [cursor=pointer]:
+              - /url: /contact-us
+      - generic [ref=e662]:
+        - heading "Head office" [level=4] [ref=e663]
+        - paragraph [ref=e664]: Ripplr Head OfficeHSR Layout, Sector 4, Bengaluru, Karnataka 560102, India
+        - generic [ref=e665]:
+          - link "contactus@ripplr.in" [ref=e666] [cursor=pointer]:
+            - /url: mailto:contactus@ripplr.in
+          - link "careers@ripplr.in" [ref=e667] [cursor=pointer]:
+            - /url: mailto:careers@ripplr.in
+    - generic [ref=e668]:
+      - generic [ref=e669]: © 2026 Ripplr. All rights reserved.
+      - generic [ref=e670]: Bengaluru · India
+    - generic [aria-hidden]:
+      - generic: ripplr
+  - button "Open Next.js Dev Tools" [ref=e676] [cursor=pointer]

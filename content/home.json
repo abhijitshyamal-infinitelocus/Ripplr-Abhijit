@@ -1,0 +1,725 @@
+{
+  "meta": {
+    "title": "Ripplr - Distribution & Logistics for New India",
+    "description": "Powering every step of India's retail supply chain. 93K+ retailer reach, 20+ brand partners, 2.5L+ monthly orders."
+  },
+  "hero": {
+    "eyebrow": "Next-Gen Logistics Solutions",
+    "headline": "Join Us in Shaping the Future of ",
+    "headlineAccent": "Distribution & Logistics",
+    "subhead": "Powering every step of India's retail supply chain.",
+    "primaryCta": {
+      "label": "Onboard Your Brand",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "Explore Services",
+      "href": "/services/distribution"
+    },
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "Retailer Reach"
+      },
+      {
+        "value": "70+",
+        "label": "Brand Partners"
+      },
+      {
+        "value": "85M+",
+        "label": "Monthly SKU Delivered"
+      },
+      {
+        "value": "15K+",
+        "label": "Monthly Trips Managed"
+      }
+    ],
+    "illustration": {
+      "src": "/figma/home/hero-ecosystem.webp",
+      "video": "/figma/home/videos/homepage-hero.webm",
+      "videoMp4": "/figma/home/videos/homepage-hero.mp4",
+      "alt": "Ripplr connects brands to wholesalers, supermarkets, online fulfilment, retailers, logistics and micro-warehousing",
+      "width": 2000,
+      "height": 1124
+    },
+    "floatingChips": [
+      {
+        "label": "Fill rate",
+        "value": "95%"
+      },
+      {
+        "label": "Vehicles live",
+        "value": "700+"
+      }
+    ]
+  },
+  "numbers": {
+    "eyebrow": "Performance",
+    "title": "Ripplr Numbers So Far",
+    "stats": [
+      {
+        "value": "7+",
+        "label": "Years Active"
+      },
+      {
+        "value": "270+",
+        "label": "Cities Covered Through Partners"
+      },
+      {
+        "value": "230k+",
+        "label": "Orders Processed Monthly"
+      },
+      {
+        "value": "2.5x+",
+        "label": "Monthly Repeat Order Ratio"
+      }
+    ]
+  },
+  "brands": {
+    "eyebrow": "Brands",
+    "title": "Trusted by Industry Leaders",
+    "marquee": {
+      "trackWidth": 9472,
+      "durationSeconds": 53,
+      "boxWidth": 200,
+      "pitch": 296
+    },
+    "logos": [
+      {
+        "src": "/logos/home/acer.webp",
+        "alt": "Acer",
+        "width": 300,
+        "height": 104,
+        "displayWidth": 150,
+        "displayHeight": 52
+      },
+      {
+        "src": "/logos/home/licious.webp",
+        "alt": "Licious",
+        "width": 400,
+        "height": 168,
+        "displayWidth": 200,
+        "displayHeight": 84
+      },
+      {
+        "src": "/logos/home/reliance-trends.webp",
+        "alt": "Reliance Trends",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/hp.webp",
+        "alt": "HP",
+        "width": 400,
+        "height": 148,
+        "displayWidth": 200,
+        "displayHeight": 74
+      },
+      {
+        "src": "/logos/home/godrej.webp",
+        "alt": "Godrej",
+        "width": 400,
+        "height": 119,
+        "displayWidth": 200,
+        "displayHeight": 59.67
+      },
+      {
+        "src": "/logos/home/dmart.webp",
+        "alt": "DMart",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/xpressbees.webp",
+        "alt": "XpressBees",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/milkbasket.webp",
+        "alt": "Milkbasket",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/tata-1mg.webp",
+        "alt": "Tata 1mg",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/ooge.webp",
+        "alt": "Ooge",
+        "width": 400,
+        "height": 168,
+        "displayWidth": 200,
+        "displayHeight": 84
+      },
+      {
+        "src": "/logos/home/jubilant-foodworks.webp",
+        "alt": "Jubilant FoodWorks",
+        "width": 400,
+        "height": 148,
+        "displayWidth": 200,
+        "displayHeight": 74
+      },
+      {
+        "src": "/logos/home/seven-eleven.webp",
+        "alt": "7-Eleven",
+        "width": 400,
+        "height": 136,
+        "displayWidth": 200,
+        "displayHeight": 68
+      },
+      {
+        "src": "/logos/home/hisense.webp",
+        "alt": "Hisense",
+        "width": 350,
+        "height": 112,
+        "displayWidth": 175,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/modicare.webp",
+        "alt": "Modicare",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/bigbasket.webp",
+        "alt": "bigbasket",
+        "width": 400,
+        "height": 144,
+        "displayWidth": 200,
+        "displayHeight": 72
+      },
+      {
+        "src": "/logos/home/zomato.webp",
+        "alt": "Zomato",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/meesho.webp",
+        "alt": "Meesho",
+        "width": 400,
+        "height": 152,
+        "displayWidth": 200,
+        "displayHeight": 76
+      },
+      {
+        "src": "/logos/home/google-pixel.webp",
+        "alt": "Google Pixel",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/happilo.webp",
+        "alt": "Happilo",
+        "width": 400,
+        "height": 122,
+        "displayWidth": 200,
+        "displayHeight": 61
+      },
+      {
+        "src": "/logos/home/happi-planet.webp",
+        "alt": "Happi Planet",
+        "width": 400,
+        "height": 146,
+        "displayWidth": 200,
+        "displayHeight": 73
+      },
+      {
+        "src": "/logos/home/dabur.webp",
+        "alt": "Dabur",
+        "width": 400,
+        "height": 138,
+        "displayWidth": 200,
+        "displayHeight": 69
+      },
+      {
+        "src": "/logos/home/urban-company.webp",
+        "alt": "Urban Company",
+        "width": 400,
+        "height": 130,
+        "displayWidth": 200,
+        "displayHeight": 65
+      },
+      {
+        "src": "/logos/home/samsung.webp",
+        "alt": "Samsung",
+        "width": 400,
+        "height": 152,
+        "displayWidth": 200,
+        "displayHeight": 76
+      },
+      {
+        "src": "/logos/home/noise.webp",
+        "alt": "Noise",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/nothing.webp",
+        "alt": "Nothing",
+        "width": 400,
+        "height": 112,
+        "displayWidth": 200,
+        "displayHeight": 56
+      },
+      {
+        "src": "/logos/home/poco.webp",
+        "alt": "POCO",
+        "width": 400,
+        "height": 140,
+        "displayWidth": 200,
+        "displayHeight": 70
+      },
+      {
+        "src": "/logos/home/marico.webp",
+        "alt": "Marico",
+        "width": 400,
+        "height": 152,
+        "displayWidth": 200,
+        "displayHeight": 76
+      },
+      {
+        "src": "/logos/home/britannia.webp",
+        "alt": "Britannia",
+        "width": 400,
+        "height": 122,
+        "displayWidth": 200,
+        "displayHeight": 61
+      },
+      {
+        "src": "/logos/home/nestle.webp",
+        "alt": "Nestlé",
+        "width": 400,
+        "height": 150,
+        "displayWidth": 200,
+        "displayHeight": 75
+      },
+      {
+        "src": "/logos/home/sunpure.webp",
+        "alt": "Sunpure",
+        "width": 400,
+        "height": 224,
+        "displayWidth": 200,
+        "displayHeight": 112
+      },
+      {
+        "src": "/logos/home/gold-drop.webp",
+        "alt": "Gold Drop",
+        "width": 400,
+        "height": 160,
+        "displayWidth": 200,
+        "displayHeight": 80
+      },
+      {
+        "src": "/logos/home/unilever.webp",
+        "alt": "Unilever",
+        "width": 400,
+        "height": 169,
+        "displayWidth": 200,
+        "displayHeight": 84.33
+      }
+    ],
+    "eyebrowMobile": "Industry Leaders",
+    "titleMobile": "Trusted by the Best"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Optimized for Supply Chain Efficiency",
+    "description": "Six services. One operating system. Pick where you want to start.",
+    "tabs": [
+      {
+        "id": "distribution",
+        "label": "Distribution",
+        "items": [
+          {
+            "series": "01",
+            "name": "End-to-End Distribution Management",
+            "art": "/figma/home/DistributionTab/distri1.webp",
+            "artVideo": "/figma/home/videos/homepage-horizontal.webm",
+            "artVideoMp4": "/figma/home/videos/homepage-horizontal.mp4",
+            "artAlt": "Ripplr's distribution hub linking warehousing, storage, dashboards, retail and delivery",
+            "description": "Operate the complete distribution lifecycle - from procurement and warehousing to order fulfillment, delivery, collections and retailer servicing - with real-time visibility on every order, beat and SKU.",
+            "proof": [
+              "93k+ retailers served",
+              "1cr+ deliveries completed"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "02",
+            "name": "Distributor-as-a-Service",
+            "art": "/figma/home/DistributionTab/distri2.webp",
+            "artAlt": "Brands plugging into Ripplr's distributor-as-a-service hub for delivery, market reach and managed operations",
+            "description": "Launch and manage dedicated distribution operations for brands without requiring them to build their own distribution network.",
+            "proof": [
+              "Zero setup overhead",
+              "Faster market entry"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "03",
+            "name": "Distribution Control Tower",
+            "art": "/figma/home/DistributionTab/distri3.webp",
+            "artAlt": "A control tower operator watching shipment, order and service-level dashboards",
+            "description": "Monitor inventory, sales, deliveries, service levels, and operational KPIs through a centralized command center with advance dashboards.",
+            "proof": [
+              "Real-time visibility",
+              "Centralized operations"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "04",
+            "name": "Multi-Channel Distribution",
+            "art": "/figma/home/DistributionTab/distri4.webp",
+            "artAlt": "A Ripplr warehouse feeding general trade, modern trade, pharmacy, e-commerce and institutional channels",
+            "description": "Support General Trade, Modern Trade, E-commerce, B2B, Institutional, and Exclusive Brand Stores through a unified operation.",
+            "proof": [
+              "Modern trade ready",
+              "General trade coverage"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "05",
+            "name": "Retail Network Management",
+            "art": "/figma/home/DistributionTab/distri5.webp",
+            "artAlt": "A Ripplr fulfilment centre servicing a network of retailer storefronts",
+            "description": "Build, onboard, manage, and service thousands of retailers with structured sales and distribution operations.",
+            "proof": [
+              "11+ cities covered",
+              "93k+ retailers"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "06",
+            "name": "Inventory Planning & Optimization",
+            "art": "/figma/home/DistributionTab/distri6.webp",
+            "artAlt": "Demand forecasting, replenishment planning and safety stock dashboards beside a warehouse",
+            "description": "Optimize inventory levels using demand forecasting, replenishment planning, safety stock management, and intelligent allocation.",
+            "proof": [
+              "Smarter forecasting",
+              "Lower stockouts"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          }
+        ]
+      },
+      {
+        "id": "logistics",
+        "label": "Logistics",
+        "items": [
+          {
+            "series": "01",
+            "name": "Cold Chain Logistics",
+            "art": "/figma/home/LogisticsTab/Logi1.webp",
+            "artAlt": "A cold storage facility loading refrigerated trucks bound for a retail store",
+            "description": "Temperature-controlled transportation and warehousing for pharmaceuticals, dairy, frozen foods, beverages, and perishables.",
+            "proof": [
+              "Temperature controlled",
+              "End-to-end visibility"
+            ],
+            "cta": {
+              "label": "Explore Logistics",
+              "href": "/services/logistics"
+            }
+          },
+          {
+            "series": "02",
+            "name": "Control Tower Operations",
+            "art": "/figma/home/LogisticsTab/Logi2.webp",
+            "artAlt": "Operators watching a national fleet map, trend charts and exception alerts",
+            "description": "Centralized monitoring of fleet, warehouse, orders, inventory, and SLA performance through a unified operations center.",
+            "proof": [
+              "Real-time monitoring",
+              "Centralized control"
+            ],
+            "cta": {
+              "label": "Explore Logistics",
+              "href": "/services/logistics"
+            }
+          },
+          {
+            "series": "03",
+            "name": "Warehouse Operations Management",
+            "art": "/figma/home/LogisticsTab/Logi3.webp",
+            "artAlt": "A cutaway warehouse with racking, picking, packing lines and trucks at the dock",
+            "description": "Operate warehouse facilities including manpower, inventory, storage, picking, packing, dispatch, and quality processes.",
+            "proof": [
+              "Faster fulfilment",
+              "Process optimized"
+            ],
+            "cta": {
+              "label": "Explore Logistics",
+              "href": "/services/logistics"
+            }
+          },
+          {
+            "series": "04",
+            "name": "GPS & Fleet Visibility",
+            "art": "/figma/home/LogisticsTab/Logi4.webp",
+            "artAlt": "A fleet overview dashboard tracking live vehicle status beside trucks on the road",
+            "description": "Real-time vehicle tracking, shipment monitoring, geofencing, ETA prediction, and exception management.",
+            "proof": [
+              "Fleet visibility",
+              "Route optimized"
+            ],
+            "cta": {
+              "label": "Explore Logistics",
+              "href": "/services/logistics"
+            }
+          },
+          {
+            "series": "05",
+            "name": "Customized Supply Chain Solutions",
+            "art": "/figma/home/LogisticsTab/Logi5.webp",
+            "artAlt": "A tailored supply chain linking manufacturing and warehousing to modern trade, distributors and retailers",
+            "description": "Design and operate supply chain models customized to industry-specific business requirements.",
+            "proof": [
+              "Tailored solutions",
+              "Scalable operations"
+            ],
+            "cta": {
+              "label": "Explore Logistics",
+              "href": "/services/logistics"
+            }
+          },
+          {
+            "series": "06",
+            "name": "Ambient Transportation",
+            "art": "/figma/home/LogisticsTab/Logi6.webp",
+            "artAlt": "Ambient trucks running from a warehouse to city, office and storefront destinations",
+            "description": "Reliable transportation services for ambient products across local, regional, and national networks.",
+            "proof": [
+              "Pan-region coverage",
+              "Reliable delivery"
+            ],
+            "cta": {
+              "label": "Explore Logistics",
+              "href": "/services/logistics"
+            }
+          }
+        ]
+      },
+      {
+        "id": "technology",
+        "label": "Technology",
+        "items": [
+          {
+            "series": "01",
+            "name": "Unified Digital Supply Chain Platform",
+            "art": "/figma/home/TechnologyTab/Tech0.webp",
+            "artAlt": "One platform on a laptop linking warehousing, retail, analytics, cloud and field teams",
+            "description": "One integrated platform connecting procurement, warehousing, distribution, logistics, finance, retailers, and analytics.",
+            "proof": [
+              "Connected operations",
+              "Single platform"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "02",
+            "name": "Enterprise-Grade Security",
+            "art": "/figma/home/TechnologyTab/Tech1.webp",
+            "artAlt": "A security shield over user roles, audit trails, encrypted communication and locked servers",
+            "description": "Role-based access controls, audit trails, encrypted communication, secure authentication, and compliance-ready architecture.",
+            "proof": [
+              "Secure by design",
+              "Role-based access"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "03",
+            "name": "Intelligent Document Processing",
+            "art": "/figma/home/TechnologyTab/Tech2.webp",
+            "artAlt": "Invoices, PODs and GRNs captured into an OCR and AI engine, validated and pushed to ERP",
+            "description": "Digitize invoices, proof of delivery, GRNs, and operational documents using OCR and automated validation workflows.",
+            "proof": [
+              "AI-powered",
+              "Automated workflows"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "04",
+            "name": "GPS & IoT Integration",
+            "art": "/figma/home/TechnologyTab/Tech3.webp",
+            "artAlt": "Live fleet tracking on desktop and mobile beside a truck and a temperature sensor",
+            "description": "Enable live fleet tracking, geofencing, temperature monitoring, shipment visibility, and real-time logistics intelligence.",
+            "proof": [
+              "Live fleet data",
+              "IoT connected"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "05",
+            "name": "Business Intelligence & Analytics",
+            "art": "/figma/home/TechnologyTab/Tech5.webp",
+            "artAlt": "An analytics dashboard of KPI charts, trend lines and regional breakdowns",
+            "description": "Transform operational data into actionable insights with customizable dashboards, KPI tracking, alerts, and executive reporting.",
+            "proof": [
+              "Live dashboards",
+              "Data-driven decisions"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          },
+          {
+            "series": "06",
+            "name": "Configurable Business Workflows",
+            "art": "/figma/home/TechnologyTab/Tech6.webp",
+            "artAlt": "A drag-and-drop workflow builder wired to business rules, approvals, pricing and territories",
+            "description": "Adapt business rules, approval flows, pricing, territories, and operational processes without extensive development.",
+            "proof": [
+              "Flexible workflows",
+              "Scalable processes"
+            ],
+            "cta": {
+              "label": "Explore Distribution",
+              "href": "/services/distribution"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "performance": {
+    "eyebrow": "Performance",
+    "title": "Measured Through Operational Excellence",
+    "stats": [
+      {
+        "value": "7+",
+        "label": "Years Active"
+      },
+      {
+        "value": "270+",
+        "label": "Cities Covered Through Partners"
+      },
+      {
+        "value": "230k+",
+        "label": "Orders Processed Monthly"
+      },
+      {
+        "value": "2.5x+",
+        "label": "Monthly Repeat Order Ration"
+      },
+      {
+        "value": "93%+",
+        "label": "Next-Day Delivery Success"
+      }
+    ]
+  },
+  "updates": {
+    "eyebrow": "Updates",
+    "title": "Tracking Industry Growth Stories",
+    "description": "Ripplr in the news.",
+    "readMore": "Read the full article",
+    "articles": [
+      {
+        "kicker": "Funding · 11 May 2026",
+        "headline": "Ripplr's FY26 Revenue Jumps 32% to ₹1,820 Cr, Loss Narrows Over 50%",
+        "image": "/figma/home/news-funding.webp",
+        "video": "/figma/home/videos/rupee.webm",
+        "videoMp4": "/figma/home/videos/rupee.mp4",
+        "imageAlt": "Illustration of a bank, coin stacks and a rising arrow marking Ripplr's revenue growth",
+        "href": "https://inc42.com/buzz/ripplrs-fy26-revenue-jumps-32-to-%E2%82%B91820-cr-loss-narrows-over-50/"
+      },
+      {
+        "kicker": "Funding · 01 Dec 2025",
+        "headline": "Ripplr Raises $45M in Series C Funding",
+        "image": "/figma/home/news-results.webp",
+        "video": "/figma/home/videos/bar.webm",
+        "videoMp4": "/figma/home/videos/bar.mp4",
+        "imageAlt": "Illustration of a rising chart lifting Ripplr's retail distribution network",
+        "href": "https://india.entrepreneur.com/news-and-trends/ripplr-raises-usd-45-mn-in-series-c-funding/500252"
+      },
+      {
+        "kicker": "Funding · 28 Nov 2025",
+        "headline": "Ripplr Raises ₹200.3 Cr From Sojitz Corporation, Others",
+        "image": "/figma/home/news-technology.webp",
+        "video": "/figma/home/videos/warehouse-logistics.webm",
+        "videoMp4": "/figma/home/videos/warehouse-logistics.mp4",
+        "imageAlt": "Illustration of investment flowing between Sojitz and Ripplr facilities",
+        "href": "https://app.dealroom.co/news/feed/ripplr-secures-inr-200-cr-funding"
+      },
+      {
+        "kicker": "Financials · 25 Nov 2025",
+        "headline": "Ripplr Reports ₹91 Cr Loss on ₹1,164 Cr Revenue in FY25",
+        "videoMp4": "/figma/home/videos/fy25-performance.mp4",
+        "imageAlt": "Illustration of an FY25 results report with a declining loss arrow",
+        "href": "https://entrackr.com/fintrackr/ripplr-reports-rs-91-cr-loss-on-rs-1164-cr-gmv-in-fy25-10810462"
+      },
+      {
+        "kicker": "Funding · 10 May 2023",
+        "headline": "Ripplr Raises $40M in Funding Led by Fireside Ventures",
+        "videoMp4": "/figma/home/videos/fireside-ventures.mp4",
+        "imageAlt": "Illustration of a $40M round led by Fireside Ventures reaching a Ripplr hub",
+        "href": "https://economictimes.indiatimes.com/tech/funding/fmcg-distribution-and-logistics-startup-ripplr-raises-40-million-led-by-fireside-ventures/articleshow/100138451.cms"
+      }
+    ]
+  },
+  "connect": {
+    "eyebrow": "Connect",
+    "title": "Ready to Transform Your Distribution?",
+    "description": "Connect with our experts to discover tailored distribution and supply chain solutions."
+  }
+}

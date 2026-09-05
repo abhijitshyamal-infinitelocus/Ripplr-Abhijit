@@ -1,0 +1,299 @@
+{
+  "brand": {
+    "name": "Ripplr",
+    "tagline": "Leading the future of distribution with innovative logistics solutions and cutting-edge technology."
+  },
+  "primaryNav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About Us",
+      "href": "/about-us"
+    },
+    {
+      "label": "Services",
+      "href": "/services/distribution",
+      "children": [
+        {
+          "label": "Distribution",
+          "href": "/services/distribution"
+        },
+        {
+          "label": "Logistics",
+          "href": "/services/logistics"
+        }
+      ]
+    },
+    {
+      "label": "Culture",
+      "href": "/culture"
+    },
+    {
+      "label": "Careers",
+      "href": "/careers"
+    }
+  ],
+  "mobileNavExtra": [
+    {
+      "label": "ESG",
+      "href": "/esg"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact-us"
+    }
+  ],
+  "navCta": {
+    "label": "Contact Us",
+    "href": "/contact-us"
+  },
+  "footerColumns": [
+    {
+      "title": "Services",
+      "links": [
+        {
+          "label": "Distribution",
+          "href": "/services/distribution"
+        },
+        {
+          "label": "Logistics",
+          "href": "/services/logistics"
+        }
+      ]
+    },
+    {
+      "title": "Company",
+      "links": [
+        {
+          "label": "About Us",
+          "href": "/about-us"
+        },
+        {
+          "label": "ESG",
+          "href": "/esg"
+        },
+        {
+          "label": "Careers",
+          "href": "/careers"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact-us"
+        }
+      ]
+    }
+  ],
+  "social": {
+    "label": "Follow us",
+    "linkedin": "https://www.linkedin.com/company/intelligent-retail-pvt-ltd/"
+  },
+  "legal": "Ripplr. All rights reserved.",
+  "contact": {
+    "generalEnquiries": "contactus@ripplr.in",
+    "careers": "careers@ripplr.in",
+    "headOffice": {
+      "name": "Ripplr Head Office",
+      "address": "HSR Layout, Sector 4, Bengaluru, Karnataka 560102, India",
+      "directions": "https://maps.app.goo.gl/icwtrtFbhLfqHALu9"
+    }
+  },
+  "contactCard": {
+    "media": {
+      "base": "/figma/contact/media-base.webp",
+      "layers": [
+        {
+          "src": "/figma/contact/media-20479.webp",
+          "left": -166,
+          "top": -13.5,
+          "width": 801,
+          "height": 534
+        },
+        {
+          "src": "/figma/contact/media-20483.webp",
+          "left": -30,
+          "top": -3.36,
+          "width": 460,
+          "height": 519.712
+        }
+      ],
+      "alt": "A Ripplr support agent at a desk, taking enquiries from brands across India"
+    },
+    "panels": {
+      "home": {
+        "title": "Reach out to RIPPLR team",
+        "rows": [
+          {
+            "icon": "mail",
+            "value": "contactus@ripplr.in",
+            "href": "mailto:contactus@ripplr.in"
+          },
+          {
+            "icon": "map-pin",
+            "value": "HSR Layout, Sector 6, Bengaluru 560102"
+          }
+        ],
+        "cta": {
+          "label": "Navigate Now",
+          "href": "https://maps.app.goo.gl/icwtrtFbhLfqHALu9"
+        }
+      },
+      "contact": {
+        "title": "Reach us on",
+        "rows": [
+          {
+            "icon": "mail",
+            "value": "contactus@ripplr.in",
+            "href": "mailto:contactus@ripplr.in"
+          },
+          {
+            "icon": "map-pin",
+            "value": "HSR Layout, Sector 4, Bengaluru 560102",
+            "href": "https://maps.app.goo.gl/icwtrtFbhLfqHALu9"
+          },
+          {
+            "icon": "briefcase",
+            "value": "careers@ripplr.in",
+            "href": "mailto:careers@ripplr.in"
+          },
+          {
+            "icon": "linkedin",
+            "value": "linkedin.com/company/ripplr",
+            "href": "https://www.linkedin.com/company/intelligent-retail-pvt-ltd/"
+          },
+          {
+            "icon": "clock",
+            "value": "Mon – Fri · 10:00 AM – 6:00 PM IST"
+          }
+        ]
+      }
+    },
+    "forms": {
+      "distribution": {
+        "title": "DISTRIBUTION ENQUIRY",
+        "submitLabel": "Send Message",
+        "fields": [
+          {
+            "name": "firstName",
+            "label": "First name",
+            "placeholder": "Enter first name",
+            "type": "text",
+            "validate": "name",
+            "required": true,
+            "half": true
+          },
+          {
+            "name": "lastName",
+            "label": "Last name",
+            "placeholder": "Enter last name",
+            "type": "text",
+            "validate": "name",
+            "required": true,
+            "half": true
+          },
+          {
+            "name": "email",
+            "label": "Email address",
+            "placeholder": "you@company.com",
+            "type": "email",
+            "required": true,
+            "half": true
+          },
+          {
+            "name": "phone",
+            "label": "Phone number",
+            "placeholder": "98xxxxxx",
+            "type": "tel",
+            "required": true,
+            "half": true
+          },
+          {
+            "name": "message",
+            "label": "Message",
+            "placeholder": "Tell us a bit about your enquiry",
+            "type": "textarea",
+            "required": true,
+            "half": false
+          }
+        ]
+      },
+      "logistics": {
+        "title": "LOGISTICS ENQUIRY",
+        "submitLabel": "Submit",
+        "fields": [
+          {
+            "name": "fullName",
+            "label": "Full Name",
+            "placeholder": "Enter full name",
+            "type": "text",
+            "validate": "name",
+            "half": true,
+            "required": true
+          },
+          {
+            "name": "mobile",
+            "label": "Mobile No",
+            "placeholder": "98xxxxxx",
+            "type": "tel",
+            "half": true,
+            "required": true
+          },
+          {
+            "name": "from",
+            "label": "From",
+            "placeholder": "Pickup city",
+            "type": "text",
+            "half": true,
+            "required": true
+          },
+          {
+            "name": "to",
+            "label": "To",
+            "placeholder": "Delivery city",
+            "type": "text",
+            "half": true,
+            "required": true
+          },
+          {
+            "name": "goodsType",
+            "label": "Select type",
+            "placeholder": "Select type",
+            "type": "select",
+            "half": true,
+            "required": false,
+            "options": [
+              "Document",
+              "FMCG",
+              "Apparel",
+              "Electronics",
+              "Food",
+              "Furniture",
+              "Others"
+            ]
+          },
+          {
+            "name": "weight",
+            "label": "Weight (in Kg)",
+            "placeholder": "e.g. 250",
+            "type": "number",
+            "half": true,
+            "required": true
+          },
+          {
+            "name": "customerType",
+            "label": "Select Company",
+            "placeholder": "Select Company",
+            "type": "select",
+            "half": true,
+            "required": false,
+            "options": [
+              "Individual",
+              "Company"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

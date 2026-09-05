@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "title": "Distribution Services",
+    "description": "A tech-orchestrated distribution engine reaching nearly 100K+ retail outlets - with real-time visibility on every order, beat and SKU."
+  },
+  "hero": {
+    "eyebrow": "Distribution",
+    "headlineParts": [
+      {
+        "t": "The smartest path from "
+      },
+      {
+        "t": "brand",
+        "accent": true
+      },
+      {
+        "t": " to "
+      },
+      {
+        "t": "shelf",
+        "accent": true
+      },
+      {
+        "t": "."
+      }
+    ],
+    "subhead": "A tech-orchestrated distribution engine reaching nearly 100K+ retail outlets - with real-time visibility on every order, beat and SKU.",
+    "primaryCta": {
+      "label": "Onboard Brand",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "Explore Logistics",
+      "href": "/services/logistics"
+    },
+    "art": {
+      "src": "/figma/distribution/distribution-hero.webp",
+      "video": "/figma/distribution/videos/distribution-hero.webm",
+      "videoMp4": "/figma/distribution/videos/distribution-hero.mp4",
+      "alt": "Ripplr distribution network from brand to supermarket, kirana store and last mile",
+      "width": 1988,
+      "height": 1118
+    }
+  },
+  "performance": {
+    "eyebrow": "Performance",
+    "title": "Ripplr Numbers So Far",
+    "stats": [
+      {
+        "value": "7+",
+        "label": "Years Active"
+      },
+      {
+        "value": "270+",
+        "label": "Cities Covered Through Partners"
+      },
+      {
+        "value": "230k+",
+        "label": "Orders Processed Monthly"
+      },
+      {
+        "value": "2.5x+",
+        "label": "Monthly Repeat Order Ratio"
+      },
+      {
+        "value": "93%+",
+        "label": "Next-Day Delivery Success"
+      }
+    ]
+  },
+  "workflow": {
+    "eyebrow": "Process",
+    "title": "Distribution Tech Workflow",
+    "description": "Fifteen steps in three phases - orders captured, fulfilled and settled, then turned into insight.",
+    "phases": [
+      {
+        "index": "01",
+        "name": "Capture & Prepare",
+        "steps": [
+          {
+            "icon": "phone",
+            "title": "Order Taking",
+            "body": "On brand systems & upload on Ripplr CDMS"
+          },
+          {
+            "icon": "arrow-right",
+            "title": "Proprietary Order Adaptor",
+            "body": "Converts data to uniform Ripplr format"
+          },
+          {
+            "icon": "box",
+            "title": "Purchase Order",
+            "body": "And receive products"
+          },
+          {
+            "icon": "shield-check",
+            "title": "Quality Check",
+            "body": "And smart storage"
+          },
+          {
+            "icon": "warehouse",
+            "title": "Retailer Order Sync",
+            "body": "With Ripplr WMS"
+          }
+        ]
+      },
+      {
+        "index": "02",
+        "name": "Fulfil & Settle",
+        "steps": [
+          {
+            "icon": "box",
+            "title": "Picking & Packing",
+            "body": "and ready to dispatch"
+          },
+          {
+            "icon": "truck",
+            "title": "Goods Delivery",
+            "body": "at store (geo Tagged)"
+          },
+          {
+            "icon": "doc",
+            "title": "Account of Undelivered",
+            "body": "products and returns"
+          },
+          {
+            "icon": "rupee",
+            "title": "Outstanding Collection",
+            "body": "Payments before next order"
+          },
+          {
+            "icon": "shield-check",
+            "title": "Payments Verification",
+            "body": "and settle with banks"
+          }
+        ]
+      },
+      {
+        "index": "03",
+        "name": "Analyse & Grow",
+        "steps": [
+          {
+            "icon": "chart",
+            "title": "Monitor SLA",
+            "body": "Dashboards"
+          },
+          {
+            "icon": "bar-chart",
+            "title": "Sales, Daily & Monthly",
+            "body": "Data Analysis"
+          },
+          {
+            "icon": "store",
+            "title": "Retailer Cohort",
+            "body": "Data Analysis"
+          },
+          {
+            "icon": "gauge",
+            "title": "Smart Operations",
+            "body": "Data Analysis"
+          },
+          {
+            "icon": "briefcase",
+            "title": "Business",
+            "body": "Data Analysis & Insights"
+          }
+        ]
+      }
+    ],
+    "takeawaysLabel": "Key takeaways",
+    "takeaways": [
+      "Brand onboarding in less than a day",
+      "New warehouse enabling in less than 2 hrs",
+      "Significantly reduced man-hours & training"
+    ]
+  },
+  "categories": {
+    "eyebrow": "What we distribute",
+    "title": "Business Verticals",
+    "items": [
+      {
+        "badge": "High-Velocity",
+        "icon": "box",
+        "title": "FMCG",
+        "body": "High-velocity SKUs across GT and MT channels.",
+        "art": "/figma/distribution/vertical-fmcg.webp",
+        "artVideo": "/figma/distribution/videos/vertical-fmcg.webm",
+        "artVideoMp4": "/figma/distribution/videos/vertical-fmcg.mp4"
+      },
+      {
+        "badge": "Serialized & Secure",
+        "icon": "shield-check",
+        "title": "Electronics",
+        "subtitle": "Appliances and Mobiles",
+        "body": "High-value SKU handling with serialized tracking.",
+        "art": "/figma/distribution/vertical-electronics.webp",
+        "artVideo": "/figma/distribution/videos/vertical-electronics.webm",
+        "artVideoMp4": "/figma/distribution/videos/vertical-electronics.mp4"
+      }
+    ]
+  },
+  "network": {
+    "eyebrow": "Our network",
+    "title": "FMCG Distribution Network",
+    "description": "Strategically located hubs ensuring seamless distribution across the subcontinent.",
+    "tone": "distribution",
+    "legend": [
+      {
+        "label": "Distribution Presence",
+        "color": "#FF7A2F"
+      }
+    ],
+    "tabs": [
+      {
+        "id": "fmcg",
+        "label": "FMCG",
+        "icon": "box",
+        "title": "FMCG Distribution Network"
+      },
+      {
+        "id": "electronics",
+        "label": "Electronics",
+        "icon": "shield-check",
+        "title": "Electronics Distribution Network",
+        "regions": [
+          {
+            "name": "South",
+            "count": "1 location",
+            "cities": [
+              "Bengaluru"
+            ]
+          },
+          {
+            "name": "North",
+            "count": "1 location",
+            "cities": [
+              "Delhi"
+            ]
+          }
+        ]
+      }
+    ],
+    "regions": [
+      {
+        "name": "South",
+        "count": "7 locations",
+        "cities": [
+          "Bengaluru",
+          "Chennai",
+          "Hyderabad",
+          "Coimbatore",
+          "Pondicherry",
+          "Tumakuru",
+          "Gouribidanur"
+        ]
+      }
+    ]
+  },
+  "brandRows": [
+    {
+      "eyebrow": "Trusted by",
+      "title": "Category - Leading Brands in FMCG",
+      "logos": [
+        {
+          "src": "/logos/distribution/fmcg/unilever.webp",
+          "alt": "Unilever",
+          "width": 400,
+          "height": 169,
+          "displayWidth": 200,
+          "displayHeight": 84.33
+        },
+        {
+          "src": "/logos/distribution/fmcg/britannia.webp",
+          "alt": "Britannia",
+          "width": 400,
+          "height": 122,
+          "displayWidth": 200,
+          "displayHeight": 61
+        },
+        {
+          "src": "/logos/distribution/fmcg/nestle.webp",
+          "alt": "Nestlé",
+          "width": 400,
+          "height": 150,
+          "displayWidth": 200,
+          "displayHeight": 75
+        },
+        {
+          "src": "/logos/distribution/fmcg/godrej.webp",
+          "alt": "Godrej",
+          "width": 400,
+          "height": 119,
+          "displayWidth": 200,
+          "displayHeight": 59.67
+        },
+        {
+          "src": "/logos/distribution/fmcg/sunpure.webp",
+          "alt": "Sunpure",
+          "width": 400,
+          "height": 224,
+          "displayWidth": 200,
+          "displayHeight": 112
+        },
+        {
+          "src": "/logos/distribution/fmcg/dabur.webp",
+          "alt": "Dabur",
+          "width": 400,
+          "height": 138,
+          "displayWidth": 200,
+          "displayHeight": 69
+        },
+        {
+          "src": "/logos/distribution/fmcg/gold-drop.webp",
+          "alt": "Gold Drop",
+          "width": 400,
+          "height": 160,
+          "displayWidth": 200,
+          "displayHeight": 80
+        },
+        {
+          "src": "/logos/distribution/fmcg/marico.webp",
+          "alt": "Marico",
+          "width": 400,
+          "height": 152,
+          "displayWidth": 200,
+          "displayHeight": 76
+        }
+      ]
+    },
+    {
+      "eyebrow": "Trusted by",
+      "title": "Category - Leading Brands in Electronics",
+      "logos": [
+        {
+          "src": "/logos/distribution/electronics/acer.webp",
+          "alt": "Acer",
+          "width": 300,
+          "height": 104,
+          "displayWidth": 150,
+          "displayHeight": 52
+        },
+        {
+          "src": "/logos/distribution/electronics/noise.webp",
+          "alt": "Noise",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/distribution/electronics/nothing.webp",
+          "alt": "Nothing",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/distribution/electronics/hisense.webp",
+          "alt": "Hisense",
+          "width": 350,
+          "height": 112,
+          "displayWidth": 175,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/distribution/electronics/google-pixel.webp",
+          "alt": "Google Pixel",
+          "width": 400,
+          "height": 112,
+          "displayWidth": 200,
+          "displayHeight": 56
+        },
+        {
+          "src": "/logos/distribution/electronics/ooge.webp",
+          "alt": "Ooge",
+          "width": 400,
+          "height": 168,
+          "displayWidth": 200,
+          "displayHeight": 84
+        },
+        {
+          "src": "/logos/distribution/electronics/hp.webp",
+          "alt": "HP",
+          "width": 400,
+          "height": 148,
+          "displayWidth": 200,
+          "displayHeight": 74
+        },
+        {
+          "src": "/logos/distribution/electronics/poco.webp",
+          "alt": "POCO",
+          "width": 400,
+          "height": 140,
+          "displayWidth": 200,
+          "displayHeight": 70
+        },
+        {
+          "src": "/logos/distribution/electronics/samsung.webp",
+          "alt": "Samsung",
+          "width": 400,
+          "height": 152,
+          "displayWidth": 200,
+          "displayHeight": 76
+        }
+      ]
+    }
+  ],
+  "faqs": {
+    "eyebrow": "FAQs",
+    "title": "Answers, before you ask",
+    "description": "Get clear answers to the questions that matter most before you get started. From onboarding and integrations to channels and warehouse setup, discover how Ripplr fits seamlessly into your operations.",
+    "items": [
+      {
+        "q": "What does Ripplr offer as a distribution partner?",
+        "a": "Ripplr provides end-to-end distribution services, helping brands manage inventory, warehousing, order fulfillment, retailer servicing, sales operations and collections. Our technology and on-ground teams work together to manage the complete distribution lifecycle."
+      },
+      {
+        "q": "Which brands can partner with Ripplr?",
+        "a": "Ripplr works with brands looking to build, expand or strengthen their distribution across India, across categories and stages of growth. We can tailor the operating model based on the brand's products, market, distribution strategy and scale."
+      },
+      {
+        "q": "What makes Ripplr's distribution model different?",
+        "a": "Ripplr combines distribution infrastructure, on-ground operations and technology into an integrated model. This enables brands to access a scalable distribution network while gaining greater visibility and control over their operational services."
+      },
+      {
+        "q": "How quickly can a new brand start distribution with Ripplr?",
+        "a": "Ripplr has built processes and technology to enable rapid brand onboarding and market activation. The actual timeline depends on the brand's requirements, geography, product portfolio and integration needs. If everything aligns we can onboard within a week."
+      },
+      {
+        "q": "How does Ripplr use technology in distribution?",
+        "a": "Ripplr's technology connects orders, inventory, warehouses, sales teams, retailers and distribution operations on a single platform. Real-time data and analytics help improve visibility, replenishment, order fulfillment and operational decision-making."
+      },
+      {
+        "q": "Can Ripplr integrate with our existing ERP and business systems?",
+        "a": "Yes. Ripplr can integrate with existing ERP, finance, order management and other enterprise systems through APIs and configurable integrations. This enables brands to connect their existing technology environment with Ripplr's distribution operations."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Get started",
+    "titleParts": [
+      {
+        "t": "Ready to take your brand to "
+      },
+      {
+        "t": "every shelf",
+        "accent": true
+      },
+      {
+        "t": "?"
+      }
+    ],
+    "description": "Launch in weeks, not quarters. One dashboard, full accountability.",
+    "primaryCta": {
+      "label": "Start Onboarding",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "See Logistics",
+      "href": "/services/logistics"
+    },
+    "art": {
+      "src": "/figma/distribution/cardCar.webp",
+      "alt": "Ripplr delivery truck at a warehouse dock",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "title": "About Us",
+    "description": "Since 2019, Ripplr has helped India's leading brands scale their reach through our integrated network for distribution and logistics."
+  },
+  "hero": {
+    "eyebrow": "About Ripplr",
+    "headline": "Transforming ",
+    "headlineAccent": "Distribution & Logistics ",
+    "headlineRest": "for a New India",
+    "subhead": "Since 2019, Ripplr has helped India's leading brands scale their reach through our integrated network for distribution and logistics.",
+    "primaryCta": {
+      "label": "Partner With Us",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "Meet the Team",
+      "href": "#leadership"
+    },
+    "stats": [
+      {
+        "value": ">95%",
+        "label": "Order Fill Rate"
+      },
+      {
+        "value": "<2%",
+        "label": "Stockout Rate"
+      },
+      {
+        "value": "<2 Days",
+        "label": "Replenishment TAT"
+      },
+      {
+        "value": "<1 Day",
+        "label": "New Brand Onboarding"
+      }
+    ],
+    "art": {
+      "src": "/figma/about/AboutusHero.webp",
+      "video": "/figma/about/videos/about-hero.webm",
+      "videoMp4": "/figma/about/videos/about-hero.mp4",
+      "alt": "Ripplr fulfilment centre and fleet against a map of India",
+      "width": 2000,
+      "height": 1124
+    },
+    "floatingChips": [
+      {
+        "label": "Founded",
+        "value": "2019"
+      },
+      {
+        "label": "Cities served",
+        "value": "12"
+      }
+    ]
+  },
+  "founders": {
+    "eyebrow": "Meet the founders",
+    "title": "The people building india's distribution and supply chain backbone",
+    "description": "We are a team of passionate professionals dedicated to transforming distribution and logistics through smarter operations, technology, and execution.",
+    "people": [
+      {
+        "quote": "Our vision is to transform distribution from a traditional, people-driven network into a technology-powered engine for India's next generation of retail.",
+        "name": "Abhishek Nehru",
+        "role": "Co-founder",
+        "photo": "/figma/about/team/abhishek-nehru.webp",
+        "linkedin": "https://www.linkedin.com/in/abhisheknehru/"
+      },
+      {
+        "quote": "Every shelf in India should be within the brand's reach. That belief still drives us every single day.",
+        "name": "Santosh D",
+        "role": "Co-founder",
+        "photo": "/figma/about/team/santosh-d.webp",
+        "linkedin": "https://www.linkedin.com/in/santosh-d-03b166229/"
+      }
+    ]
+  },
+  "mission": {
+    "title": "Our Mission",
+    "body": "Ripplr's mission is to transform the Distribution sector through innovation, collaboration, and unwavering dedication to excellence. We work closely with our clients to deliver customised solutions that enhance their supply chain operations and drive their growth. Our commitment to innovation, sustainability, and excellence is reflected in every aspect of our business, as we strive to create a culture of teamwork, respect, and integrity.",
+    "art": {
+      "src": "/figma/about/OurMission.webp",
+      "video": "/figma/about/videos/our-mission.webm",
+      "videoMp4": "/figma/about/videos/our-mission.mp4",
+      "alt": "Ripplr warehouse with trucks, pallets and staff",
+      "width": 2000,
+      "height": 1124
+    }
+  },
+  "vision": {
+    "title": "Our Vision",
+    "body": "Our goal is to become the top-tier Distribution and Logistics Provider, known for our exceptional service, innovative solutions, and customer satisfaction. We strive to be the frontrunner in utilizing technology and data to enhance supply chain operations, while providing unmatched benefits to our clients. We are dedicated to nurturing our team, promoting a culture of imagination, teamwork, and empowerment, and attracting the most brilliant minds in the industry.",
+    "art": {
+      "src": "/figma/about/vision.webp",
+      "video": "/figma/about/videos/our-vision.webm",
+      "videoMp4": "/figma/about/videos/our-vision.mp4",
+      "alt": "Ripplr distribution hub connected to air, sea and road freight",
+      "width": 2000,
+      "height": 1124
+    }
+  },
+  "leadership": {
+    "eyebrow": "Meet the team",
+    "title": "Leadership Team",
+    "description": "The operators running distribution, logistics, finance, technology and sales -day in, day out.",
+    "linkedinLabel": "LinkedIn",
+    "people": [
+      {
+        "name": "Sathya Murthy",
+        "role": "Head of Distribution",
+        "bio": "Empowering smarter distribution through scalable operations.",
+        "photo": "/figma/about/team/sathya-murthy.webp",
+        "linkedin": "https://www.linkedin.com/in/satthya-murrty-1463a423/"
+      },
+      {
+        "name": "Himanshu Gupta",
+        "role": "Senior VP Finance",
+        "bio": "Powering sustainable growth with financial discipline.",
+        "photo": "/figma/about/team/himanshu-gupta.webp",
+        "linkedin": "https://www.linkedin.com/in/ca-himanshu-gupta-a9645914/"
+      },
+      {
+        "name": "Manoj Jagatap",
+        "role": "Director of Tech and Product",
+        "bio": "Building smarter, scalable technology products that simplify operations and transform business.",
+        "photo": "/figma/about/team/Manoj.webp",
+        "linkedin": "https://www.linkedin.com/in/manoj-jagathap/"
+      },
+      {
+        "name": "Ramanathan M",
+        "role": "Head of Sales - Distribution",
+        "bio": "Accelerating business performance through sales excellence.",
+        "photo": "/figma/about/team/ramanathan-m.webp",
+        "linkedin": "https://www.linkedin.com/in/ramanathan-m-50493120/"
+      },
+      {
+        "name": "ALFRED J",
+        "role": "Head of HR",
+        "bio": "Shaping culture, Empowering people and Driving growth.",
+        "photo": "/figma/about/team/Alfred.webp"
+      },
+      {
+        "name": "Pradeep Kumar M K",
+        "role": "Head of Logistics",
+        "bio": "Redefining logistics through technology and precision.",
+        "photo": "/figma/about/team/pradeep-kumar-mk.webp",
+        "linkedin": "https://www.linkedin.com/in/pradeep-kumar-m-k-b44a321b/"
+      },
+      {
+        "name": "Rajendra Prasad",
+        "role": "Head of Electronics",
+        "bio": "Expanding electronics distribution partnerships through excellent service.",
+        "photo": "/figma/about/team/rajendra-prasad.webp",
+        "linkedin": "https://www.linkedin.com/in/rajendra-prasad-3888b2186/"
+      },
+      {
+        "name": "Janmejaya Das",
+        "role": "Head of Operations - Electronics",
+        "bio": "Driving operational excellence and growth.",
+        "photo": "/figma/about/team/janmejaya-das.webp",
+        "linkedin": "https://www.linkedin.com/in/janmejaya-das-410a0166/"
+      }
+    ]
+  },
+  "journey": {
+    "eyebrow": "Ripplr's journey",
+    "title": "From one city to Nationwide Distribution & Logistics Network",
+    "description": "From our first operations in Bengaluru to serving India's biggest brands, here's how Ripplr grew from an idea into the backbone of modern Distribution and Logistics services.",
+    "milestones": [
+      {
+        "year": "2019",
+        "title": "Founded in Bengaluru",
+        "body": "Established Ripplr with a vision to modernize India's FMCG distribution ecosystem through technology."
+      },
+      {
+        "year": "2020",
+        "title": "Distribution Vertical Started",
+        "body": "Launched our core distribution platform, helping distributors streamline inventory, orders, and retailer operations."
+      },
+      {
+        "year": "2021",
+        "title": "Launched Tech Softwares for Business & Operations",
+        "body": "Expanded into enterprise software, digitizing warehousing, logistics, collections, and operational workflows."
+      },
+      {
+        "year": "2022",
+        "title": "Onboarded Major Brands & Clients",
+        "body": "Partnered with leading FMCG brands and rapidly expanded our distributor and retailer network across regions."
+      },
+      {
+        "year": "2023",
+        "title": "Launched Payments Management System",
+        "body": "Introduced a digital collections platform with payment reconciliation, cheque management, and financial automation."
+      },
+      {
+        "year": "2024",
+        "title": "Made the Major Bank Integrations",
+        "body": "Integrated with leading banking partners to enable secure, automated payment processing and reconciliation."
+      },
+      {
+        "year": "2025",
+        "title": "Electronic - Distribution Vertical Started",
+        "body": "Expanded into electronics distribution, extending our technology platform beyond the FMCG ecosystem."
+      },
+      {
+        "year": "Today",
+        "title": "One Network, Nationwide",
+        "body": "Serving retail counters across the country with a connected network of brands, distributors and fleet - and still growing."
+      }
+    ]
+  },
+  "network": {
+    "eyebrow": "Our network",
+    "title": "Network Across India",
+    "description": "Strategically located hubs ensuring seamless distribution across the subcontinent.",
+    "tone": "logistics",
+    "legend": [
+      {
+        "label": "Distribution Presence",
+        "color": "#FF7A2F"
+      },
+      {
+        "label": "Logistics Presence",
+        "color": "#4EA49B"
+      }
+    ],
+    "distributionCities": [
+      "Bengaluru",
+      "Chennai",
+      "Coimbatore",
+      "Delhi",
+      "Gouribidanur",
+      "Hyderabad",
+      "Pondicherry",
+      "Tumakuru"
+    ],
+    "regions": [
+      {
+        "name": "South",
+        "count": "14 locations",
+        "cities": [
+          "Bengaluru",
+          "Chennai",
+          "Coimbatore",
+          "Gouribidanur",
+          "Hyderabad",
+          "Kanchipuram",
+          "Krishnagiri",
+          "Mandya",
+          "Pondicherry",
+          "Rangareddy",
+          "Sangareddy",
+          "Tiruvallur",
+          "Tumakuru",
+          "Warangal"
+        ]
+      },
+      {
+        "name": "North",
+        "count": "8 locations",
+        "cities": [
+          "Delhi",
+          "Faridabad",
+          "Gautam Buddha Nagar",
+          "Gurgaon",
+          "Jaipur",
+          "Jind",
+          "Mewat",
+          "Sonipat"
+        ]
+      },
+      {
+        "name": "West",
+        "count": "5 locations",
+        "cities": [
+          "Mumbai",
+          "Nashik",
+          "Pune",
+          "Surat",
+          "Thane"
+        ]
+      },
+      {
+        "name": "East",
+        "count": "4 locations",
+        "cities": [
+          "Howrah",
+          "Kolkata",
+          "North 24 Parganas",
+          "South 24 Parganas"
+        ]
+      }
+    ]
+  },
+  "investors": {
+    "marquee": {
+      "pitch": 256,
+      "boxWidth": 236,
+      "durationSeconds": 12,
+      "pxPerSecond": 106.67
+    },
+    "groups": [
+      {
+        "eyebrow": "Backed by",
+        "title": "Our Investors",
+        "logos": [
+          {
+            "src": "/figma/about/investors/sojitz-corporation.webp",
+            "alt": "Sojitz Corporation",
+            "width": 222,
+            "height": 37
+          },
+          {
+            "src": "/figma/about/investors/3one4-capital.webp",
+            "alt": "3one4 Capital",
+            "width": 172,
+            "height": 51
+          },
+          {
+            "src": "/figma/about/investors/fireside-ventures.webp",
+            "alt": "Fireside Ventures",
+            "width": 156,
+            "height": 56
+          },
+          {
+            "src": "/figma/about/investors/zephyr-peacock-india.webp",
+            "alt": "Zephyr Peacock India",
+            "width": 170,
+            "height": 40
+          }
+        ]
+      },
+      {
+        "eyebrow": "Financial network",
+        "title": "Our Bankers",
+        "logos": [
+          {
+            "src": "/figma/about/investors/sbi.webp",
+            "alt": "State Bank of India",
+            "width": 100,
+            "height": 35
+          },
+          {
+            "src": "/figma/about/investors/hdfc-bank.webp",
+            "alt": "HDFC Bank",
+            "width": 174,
+            "height": 30
+          },
+          {
+            "src": "/figma/about/investors/idfc-first-bank.webp",
+            "alt": "IDFC First Bank",
+            "width": 146,
+            "height": 52
+          },
+          {
+            "src": "/figma/about/investors/icici-bank.webp",
+            "alt": "ICICI Bank",
+            "width": 178,
+            "height": 36
+          },
+          {
+            "src": "/figma/about/investors/northern-arc.webp",
+            "alt": "Northern Arc",
+            "width": 103,
+            "height": 59
+          }
+        ]
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Get started",
+    "title": "Ready to build the future of ",
+    "titleAccent": "distribution",
+    "titleRest": " with us?",
+    "description": "Partner with Ripplr - or join the team rewiring India's retail supply chain.",
+    "primaryCta": {
+      "label": "Partner With Us",
+      "href": "/contact-us"
+    },
+    "secondaryCta": {
+      "label": "Explore Careers",
+      "href": "/careers"
+    },
+    "art": {
+      "src": "/figma/distribution/cardCar.webp",
+      "alt": "Ripplr delivery truck at a warehouse dock",
+      "width": 1536,
+      "height": 1024
+    }
+  }
+}
